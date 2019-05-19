@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="auto" layout.height="fill" layout.space="6" layout.padding="2,2,2,2" heightT="56" widthT="300" showT="true">
+        <shapePicture left="79" top="42" width="40" height="40" showT="true" itemID="1" image="{binding field=name9 source=data bSync=false}" />
+        <layoutObject layout.width="100" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true">
+            <shapeText left="104" top="40" layout.width="auto" layout.height="20" content="{binding field=name1 source=data bSync=false}" showT="true" />
+            <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                <shapeText left="75" top="49" layout.width="auto" layout.height="20" content="{binding field=name2 source=data bSync=false}" showT="true" />
+                <buttonUI left="135" top="48" width="40" height="20" content="举报" textColor="#FF0080FF" drawFocus="false" transparent="true" showT="true" />
+            </layoutObject>
+        </layoutObject>
+        <layoutObject layout.width=":1" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.space="10" showT="true">
+            <progressBarUI left="206" top="52" width="125" height="12" transparent="true" mouseThrough="true" drawFocus="false" bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-4144960)13(255);}" bkInfoM_state="16(300*300)" itemID="2" showT="true">
+                <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                    <shapeText left="49" top="2" layout.width="auto" layout.height="20" content="{binding field=name4 source=data bSync=false}" showT="true" />
+                </layoutObject>
+            </progressBarUI>
+            <shapeText left="260" top="44" layout.width="auto" layout.height="20" content="{binding field=name3 source=data bSync=false}" showT="true" />
+        </layoutObject>
+    </layoutObject>
+</xc_template_tree>

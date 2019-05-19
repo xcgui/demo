@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="auto" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" widthT="300" heightT="50" showT="true">
+        <elementUI itemID="3" width="22" height="22" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4({binding field=userPic source=data bSync=false})8(0.00);}" bkInfoM_state="16(300*300)" showT="true" />
+        <shapeText itemID="2" layout.width="auto" layout.height="fill" content="{binding field=name source=data bSync=false}" showT="true" />
+        <layoutObject layout.width=":1" layout.height="fill" layout.alignH="right" layout.alignV="center" layout.horizon="true" layout.padding="0,0,20,0" showT="true">
+            <buttonUI width="20" height="20" content="{binding field=msgCount source=data bSync=false}" left="43" top="34" textAlign="DT_CENTER | DT_VCENTER | DT_SINGLELINE" offsetX="-1" offsetY="-1" bkInfoM="{6:1(1)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(-16382209)23(255);}" bkInfoM_state="1(300*300)" enableFocus="false" transparent="true" textColor="#FFFFFBFB" itemID="6" showT="true" />
+        </layoutObject>
+    </layoutObject>
+</xc_template_tree>

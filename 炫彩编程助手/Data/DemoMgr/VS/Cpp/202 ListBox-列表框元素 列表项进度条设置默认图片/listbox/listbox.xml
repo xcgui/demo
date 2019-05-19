@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-列表框元素项模板文件-->
+<xc_template_listBox>
+    <layoutEleUI drawBorder="false" enableCanvas="false" heightT="30" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="auto" mouseThrough="true" widthT="300" showT="true" expandT="true">
+        <shapeText content="{binding field=name1}" itemID="0" layout.height="20" layout.width="auto" showT="true" expandT="true" />
+        <progressBarUI height="20" imageLoad="@searchClose.png" left="122" top="11" width="100" showT="true" expandT="true" />
+    </layoutEleUI>
+</xc_template_listBox>

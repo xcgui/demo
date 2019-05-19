@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-列表元素项模板文件-->
+<head>
+    <bindJsFile value="" />
+</head>
+<xc_template_list showT="true">
+    <listHeader_item showT="true" expandT="true">
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="5,2,2,2" layout.space="6" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+            <shapeText content="{binding field=name1 source=data bSync=false}" itemID="1" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        </layoutEleUI>
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="5,2,2,2" layout.space="6" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+            <shapeText content="{binding field=name2 source=data bSync=false}" itemID="1" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        </layoutEleUI>
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="5,2,2,2" layout.space="6" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+            <shapeText content="{binding field=name3 source=data bSync=false}" itemID="1" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        </layoutEleUI>
+    </listHeader_item>
+    <list_Item showT="true" expandT="true">
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="6" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+            <shapeText content="{binding field=name1 source=data bSync=false}" itemID="1" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        </layoutEleUI>
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+            <shapeText content="{binding field=name2 source=data bSync=false}" itemID="2" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        </layoutEleUI>
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+            <shapeText content="{binding field=name3 source=data bSync=false}" itemID="3" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        </layoutEleUI>
+    </list_Item>
+</xc_template_list>

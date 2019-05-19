@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表视元素项模板文件-->
+<xc_template_listView>
+    <listView_Group showT="true">
+        <layoutObject layout.horizon="false" layout.alignH="left" layout.alignV="top" layout.width="fill" layout.height="fill" layout.space="2" widthT="0" heightT="0" showT="true">
+            <elementUI left="4" top="26" width="300" height="200" layout.width="fill" layout.height="fill" bkInfo="{sizeT:300,300;fill:align(left,top,right,bottom)margin(0,0,0,0)color(#FF1A3C7B)alpha(255);}" drawFocus="false" mouseThrough="true" showT="true">
+                <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" layout.space="2" showT="true">
+                    <shapeText left="141" top="30" layout.width="auto" layout.height="20" content="{binding field=name source=data bSync=false}" textColor="#FF6DB54A" showT="true" />
+                    <shapePicture left="211" top="115" width="100" height="100" layout.width="fill" layout.height=":1" image="@s.png" showT="true" />
+                </layoutObject>
+            </elementUI>
+        </layoutObject>
+    </listView_Group>
+    <listView_item showT="true">
+        <layoutObject layout.horizon="false" layout.alignH="center" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" showT="true">
+            <shapePicture width="40" height="40" image="{binding field=name source=data bSync=false}" showT="true" />
+            <shapeText layout.width="auto" layout.height="20" content="{binding field=name2 source=data bSync=false}" showT="true" textColor="#FFF6F6F6" textAlign="s" />
+        </layoutObject>
+    </listView_item>
+</xc_template_listView>

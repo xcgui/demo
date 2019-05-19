@@ -1,0 +1,39 @@
+import xc;
+import win;
+import gdi
+
+
+function L(str) begin
+return   string.toUnicode(str);
+end;
+
+
+
+::XInitXCGUI("");
+
+//创建窗口
+var hWindow = ::XWnd_Create(0,0,500,400,L("炫彩界面库"),0,47/*_xc_window_style_default*/);
+//创建按钮，并且设置按钮为关闭按钮
+::XBtn_SetType(::XBtn_Create(8,5,100,20,L("关闭"),hWindow),3/*_button_type_close*/);
+
+
+var hBtnRadio = ::XBtn_Create(8,35,100,20,L("单选按钮"),hWindow);
+::XBtn_SetType( hBtnRadio ,2/*_button_type_radio*/);
+
+var hBtnCheck = ::XBtn_Create(8,65,100,20,L("复选按钮"),hWindow);
+::XBtn_SetType( hBtnCheck ,1/*_button_type_check*/);
+
+var btnCheck = function(bCheck,bHandled) begin
+if(bCheck){
+	win.msgbox("按钮选中");
+}else {
+	win.msgbox("按钮没有选中");
+}
+end;
+var OnBtnCheck = raw.tostdcall(btnCheck,"int(bool bCheck,bool& pbHandled)");
+::XEle_RegEventC(hBtnCheck,35/*_XE_BUTTON_CHECK*/,OnBtnCheck);
+
+
+::XWnd_ShowWindow(hWindow,5);
+::XRunXCGUI();
+::XExitXCGUI();

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="20" top="20" width="501" height="421" layoutLeft="0" layoutTop="0" layoutRight="0" layoutBottom="0" transparentFlag="shaped" drawBk="false" dragWindow="true" dragBorder="false">
+    <shapeRect left="1" top="21" width="500" height="400" roundAngle="true" fill="false" borderColor="#FFA0EC13" showT="true" />
+    <elementUI left="0" top="0" width="500" height="20" showT="true" bkInfoM="{1:1(16)2(15)3(0,0,0,0)5(10836610)6(255);}" bkInfoM_state="16(300*300)" drawFocus="false" mouseThrough="true">
+        <buttonUI left="475" top="-1" width="23" height="20" content="x" showT="true" buttonType="close" />
+        <shapeText left="0" top="1" layout.width="auto" layout.height="20" content="炫彩界面库安装程序" showT="true" textColor="#FFFFFFFF" />
+    </elementUI>
+    <elementUI left="155" top="415" width="164" height="4" bkInfoM="{1:1(16)2(15)3(0,0,0,0)5(8619386)6(255);}" bkInfoM_state="16(300*300)" showT="true" id="12" />
+    <elementUI left="220" top="315" width="100" height="100" id="10" transparent="true" showT="true">
+        <shapeEllipse left="0" top="0" width="100" height="100" showT="true" />
+        <buttonUI left="24" top="38" width="60" height="25" content="开始安装" id="11" showT="true" />
+        <shapeText left="48" top="40" layout.width="auto" layout.height="20" content="0" width="11" height="20" showT="true" />
+    </elementUI>
+</windowUI>

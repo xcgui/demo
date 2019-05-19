@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="20" top="20" width="910" height="610" content="炫彩界面库 - 我的窗口名" layoutLeft="0" layoutTop="0" layoutRight="0" layoutBottom="0" bkInfoM_state="1(300*300)" dragWindow="true" dragBorder="false" drawBk="false" transparentFlag="shaped" transparentAlpha="255" showT="true">
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="0,0,0,0" layout.flag="window_position_body" showT="true">
+        <elementUI left="-1" top="-4" width="397" height="397" layout.height="fill" layout.width="fill" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@Shadow.png)8(0.00);}" bkInfoM_state="16(300*300)" mouseThrough="true" transparent="true" drawFocus="false" showT="true">
+            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="5,3,5,8" showT="true">
+                <elementUI left="182" top="100" width="100" height="100" layout.width="fill" layout.height="fill" mouseThrough="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@theme.png)8(0.00);}" bkInfoM_state="16(300*300)" showT="true">
+                    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                        <layoutObject layout.width="fill" layout.height="100" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true">
+                            <layoutObject layout.width="fill" layout.height="22" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                <layoutObject layout.width="150" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" showT="true" layout.padding="10,0,0,0">
+                                    <shapeText left="85" top="15" layout.width="auto" layout.height="20" content="360安全卫士" textColor="#FFFFFFFF" font="@ID_FONT_title" showT="true" />
+                                </layoutObject>
+                                <layoutObject layout.width=":1" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" showT="true">
+                                    <buttonUI left="718" top="11" width="27" height="22" showT="true" transparent="true" drawFocus="false" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@Skin_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@Skin_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@Skin_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" />
+                                    <buttonUI left="718" top="11" width="27" height="22" showT="true" transparent="true" drawFocus="false" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@Menu_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@Menu_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@Menu_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" />
+                                    <buttonUI left="718" top="11" width="27" height="22" showT="true" transparent="true" drawFocus="false" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@Min_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@Min_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@Min_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" buttonType="min" />
+                                    <buttonUI left="718" top="11" width="27" height="22" showT="true" transparent="true" drawFocus="false" bkInfoM="{3:1(1040)2(15)3(0,0,0,0)4(@Restore_01.png)8(0.00);3:1(1056)2(15)3(0,0,0,0)4(@Restore_02.png)8(0.00);3:1(1088)2(15)3(0,0,0,0)4(@Restore_03.png)8(0.00);3:1(528)2(15)3(0,0,0,0)4(@Max_01.png)8(0.00);3:1(544)2(15)3(0,0,0,0)4(@Max_02.png)8(0.00);3:1(576)2(15)3(0,0,0,0)4(@Max_03.png)8(0.00);}" bkInfoM_state="1040(300*300),1056(300*300),1088(300*300),528(300*300),544(300*300),576(300*300)" buttonType="max" />
+                                    <buttonUI left="718" top="11" width="27" height="22" showT="true" transparent="true" drawFocus="false" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@Close_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@Close_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@Close_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" buttonType="close" />
+                                </layoutObject>
+                            </layoutObject>
+                            <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="bottom" layout.horizon="true" showT="true">
+                                    <buttonUI left="-1" top="21" width="80" height="75" content="电脑体检" showT="true" buttonType="radio" buttonStyle="button" transparent="true" bkInfoM="{3:1(272)2(15)3(0,0,0,0)4(@MainTabButton_01.png)8(0.00);3:1(288)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(320)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(144)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(160)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(192)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);}" bkInfoM_state="272(300*300),288(300*300),320(300*300),144(300*300),160(300*300),192(300*300)" imageIcon="@MainTabImage1.png" iconAlign="top" textAlign="DT_CENTER | " groupID="2" check="true" drawFocus="false" textColor="#FFFFFFFF" font="@ID_FONT_tbar" bindEle="@ID_page1" />
+                                    <buttonUI left="79" top="22" width="80" height="75" content="木马查杀" showT="true" buttonType="radio" buttonStyle="button" transparent="true" bkInfoM="{3:1(272)2(15)3(0,0,0,0)4(@MainTabButton_01.png)8(0.00);3:1(288)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(320)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(144)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(160)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(192)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);}" bkInfoM_state="272(300*300),288(300*300),320(300*300),144(300*300),160(300*300),192(300*300)" textAlign="DT_CENTER | " iconAlign="top" imageIcon="@MainTabImage2.png" groupID="2" drawFocus="false" font="@ID_FONT_tbar" textColor="#FFFFFFFF" bindEle="@ID_page2" />
+                                    <buttonUI left="180" top="55" width="80" height="75" showT="true" buttonType="radio" buttonStyle="button" transparent="true" bkInfoM="{3:1(272)2(15)3(0,0,0,0)4(@MainTabButton_01.png)8(0.00);3:1(288)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(320)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(144)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(160)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(192)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);}" bkInfoM_state="272(300*300),288(300*300),320(300*300),144(300*300),160(300*300),192(300*300)" textAlign="DT_CENTER | " iconAlign="top" groupID="2" drawFocus="false" font="@ID_FONT_tbar" textColor="#FFFFFFFF" imageIcon="@MainTabImage3.png" content="系统修复" bindEle="@ID_page3" />
+                                    <buttonUI left="180" top="55" width="80" height="75" showT="true" buttonType="radio" buttonStyle="button" transparent="true" bkInfoM="{3:1(272)2(15)3(0,0,0,0)4(@MainTabButton_01.png)8(0.00);3:1(288)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(320)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(144)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(160)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(192)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);}" bkInfoM_state="272(300*300),288(300*300),320(300*300),144(300*300),160(300*300),192(300*300)" textAlign="DT_CENTER | " iconAlign="top" groupID="2" drawFocus="false" font="@ID_FONT_tbar" textColor="#FFFFFFFF" imageIcon="@MainTabImage4.png" content="电脑清理" bindEle="@ID_page4" />
+                                    <buttonUI left="319" top="25" width="80" height="75" showT="true" buttonType="radio" buttonStyle="button" transparent="true" bkInfoM="{3:1(272)2(15)3(0,0,0,0)4(@MainTabButton_01.png)8(0.00);3:1(288)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(320)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(144)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(160)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(192)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);}" bkInfoM_state="272(300*300),288(300*300),320(300*300),144(300*300),160(300*300),192(300*300)" textAlign="DT_CENTER | " iconAlign="top" groupID="2" drawFocus="false" font="@ID_FONT_tbar" textColor="#FFFFFFFF" content="优化加速" imageIcon="@MainTabImage5.png" bindEle="@ID_page5" />
+                                    <buttonUI left="180" top="55" width="80" height="75" showT="true" buttonType="radio" buttonStyle="button" transparent="true" bkInfoM="{3:1(272)2(15)3(0,0,0,0)4(@MainTabButton_01.png)8(0.00);3:1(288)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(320)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(144)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(160)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(192)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);}" bkInfoM_state="272(300*300),288(300*300),320(300*300),144(300*300),160(300*300),192(300*300)" textAlign="DT_CENTER | " iconAlign="top" groupID="2" drawFocus="false" font="@ID_FONT_tbar" textColor="#FFFFFFFF" content="电脑救援" imageIcon="@MainTabImage6.png" bindEle="@ID_page6" />
+                                    <buttonUI left="180" top="55" width="80" height="75" showT="true" buttonType="radio" buttonStyle="button" transparent="true" bkInfoM="{3:1(272)2(15)3(0,0,0,0)4(@MainTabButton_01.png)8(0.00);3:1(288)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(320)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(144)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(160)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(192)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);}" bkInfoM_state="272(300*300),288(300*300),320(300*300),144(300*300),160(300*300),192(300*300)" textAlign="DT_CENTER | " iconAlign="top" groupID="2" drawFocus="false" font="@ID_FONT_tbar" textColor="#FFFFFFFF" imageIcon="@MainTabImage7.png" content="手机助手" bindEle="@ID_page7" />
+                                    <buttonUI left="180" top="55" width="80" height="75" showT="true" buttonType="radio" buttonStyle="button" transparent="true" bkInfoM="{3:1(272)2(15)3(0,0,0,0)4(@MainTabButton_01.png)8(0.00);3:1(288)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(320)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(144)2(15)3(0,0,0,0)4(@MainTabButton_02.png)8(0.00);3:1(160)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);3:1(192)2(15)3(0,0,0,0)4(@MainTabButton_03.png)8(0.00);}" bkInfoM_state="272(300*300),288(300*300),320(300*300),144(300*300),160(300*300),192(300*300)" textAlign="DT_CENTER | " iconAlign="top" groupID="2" drawFocus="false" font="@ID_FONT_tbar" textColor="#FFFFFFFF" imageIcon="@MainTabImage8.png" content="软件管家" bindEle="@ID_page8" />
+                                </layoutObject>
+                                <layoutObject layout.width="200" layout.height="fill" layout.alignH="right" layout.alignV="center" layout.horizon="true" showT="true" layout.padding="0,0,10,0">
+                                    <shapePicture left="809" top="54" width="148" height="62" showT="true" image="@logo.png" />
+                                </layoutObject>
+                            </layoutObject>
+                        </layoutObject>
+                        <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                            <elementUI left="309" top="180" width="100" height="100" layout.width="fill" layout.height="fill" showT="true" id="@ID_page1" drawFocus="false" transparent="false" mouseThrough="true">
+                                <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                                    <elementUI left="149" top="67" width="100" height="100" layout.width="fill" layout.height="fill" showT="true" drawFocus="false" transparent="false" mouseThrough="true" id="@ID_page1_pane1">
+                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                                            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true">
+                                                <elementUI left="154" top="75" width="100" height="100" layout.width="fill" layout.height="fill" mouseThrough="true" drawFocus="false" showT="true" id="@ID_page1_pane1_left1">
+                                                    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                                                        <layoutObject layout.width="fill" layout.height="180" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                            <layoutObject layout.width="200" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" showT="true">
+                                                                <shapePicture left="98" top="51" width="146" height="118" showT="true" image="@Computer.png" />
+                                                            </layoutObject>
+                                                            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="false" showT="true" layout.space="10">
+                                                                <shapeText left="345" top="44" layout.width="auto" layout.height="20" content="您的电脑已经一年没有体检，建议立即体检！" font="@ID_FONT_page1_title1" showT="true" />
+                                                                <shapeText left="324" top="64" layout.width="auto" layout.height="40" content="系统可能已经存在大量风险，安全度和性能在急剧下降&#x0A;建议您每天坚持电脑体检，提高电脑的安全和性能" font="@ID_FONT_page1_title2" showT="true" />
+                                                            </layoutObject>
+                                                        </layoutObject>
+                                                        <layoutObject layout.width="fill" layout.height=":1" layout.alignH="center" layout.alignV="top" layout.horizon="true" showT="true" layout.padding="0,40,0,0">
+                                                            <buttonUI left="284" top="223" width="184" height="74" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@StartExamine_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@StartExamine_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@StartExamine_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" transparent="true" drawFocus="false" showT="true" bindEle="@ID_page1_pane1_left2" buttonType="radio" buttonStyle="button" groupID="2" />
+                                                        </layoutObject>
+                                                    </layoutObject>
+                                                </elementUI>
+                                                <elementUI left="221" top="75" width="100" height="100" drawFocus="false" transparent="false" mouseThrough="true" layout.width="fill" layout.height="fill" showT="true" show="false" id="@ID_page1_pane1_left2" bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(2,90.00,255,0,-4144960,100);}" bkInfoM_state="16(300*300)">
+                                                    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                                                        <layoutObject layout.width="fill" layout.height="130" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                            <layoutObject layout.width="127" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                <elementUI left="74" top="60" width="100" height="100" layout.width="fill" layout.height="fill" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@scoresGray.png)8(0.00);3:1(16)2(15)3(0,0,0,0)4(@animGreen.png)8(0.00);3:1(16)2(15)3(0,0,0,0)4(@scoresGreen.png)8(0.00);}" bkInfoM_state="16(300*300)" drawFocus="false" transparent="true" showT="true">
+                                                                    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+                                                                        <elementUI left="64" top="42" width="11" height="15" drawFocus="false" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@num1_02.png)8(0.00);}" bkInfoM_state="16(300*300)" showT="true" />
+                                                                        <elementUI left="64" top="42" width="11" height="15" drawFocus="false" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@num1_01.png)8(0.00);}" bkInfoM_state="16(300*300)" showT="true" />
+                                                                        <elementUI left="64" top="42" width="11" height="15" drawFocus="false" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@num1_01.png)8(0.00);}" bkInfoM_state="16(300*300)" showT="true" />
+                                                                    </layoutObject>
+                                                                </elementUI>
+                                                            </layoutObject>
+                                                            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                <elementUI left="152" top="45" width="100" height="100" layout.width="fill" layout.height="fill" drawFocus="false" transparent="true" showT="true">
+                                                                    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                                                                        <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true">
+                                                                            <layoutObject layout.width="fill" layout.height="45" layout.alignH="left" layout.alignV="center" layout.horizon="true" showT="true">
+                                                                                <shapeText left="110" top="14" layout.width="auto" layout.height="20" content="正在进行电脑体检:" font="@ID_FONT_1" showT="true" />
+                                                                                <shapeText left="241" top="21" layout.width="auto" layout.height="20" content="清理电脑垃圾" textColor="#FF0080FF" showT="true" />
+                                                                            </layoutObject>
+                                                                            <layoutObject layout.width="fill" layout.height="40" layout.alignH="center" layout.alignV="center" layout.horizon="true" showT="true">
+                                                                                <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" showT="true">
+                                                                                    <progressBarUI left="94" top="60" width="380" height="11" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@progressbkg.png)8(0.00);}" bkInfoM_state="16(300*300)" imageLoad="@progress.png" drawFocus="false" transparent="true" id="@ID_progbar_scan" showT="true" />
+                                                                                </layoutObject>
+                                                                                <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                                    <layoutObject layout.width=":1" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.padding="10,0,0,0" showT="true">
+                                                                                        <elementUI left="13" top="61" width="19" height="19" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@ProgPastSafe.png)8(0.00);}" bkInfoM_state="16(300*300)" drawFocus="false" transparent="true" showT="true" />
+                                                                                    </layoutObject>
+                                                                                    <layoutObject layout.width=":1" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" showT="true">
+                                                                                        <elementUI left="13" top="61" width="19" height="19" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@ProgPastSafe.png)8(0.00);}" bkInfoM_state="16(300*300)" drawFocus="false" transparent="true" showT="true" />
+                                                                                    </layoutObject>
+                                                                                    <layoutObject layout.width=":1" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" showT="true">
+                                                                                        <elementUI left="13" top="61" width="19" height="19" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@ProgNow.png)8(0.00);}" bkInfoM_state="16(300*300)" drawFocus="false" transparent="true" showT="true" />
+                                                                                    </layoutObject>
+                                                                                    <layoutObject layout.width=":1" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" showT="true">
+                                                                                        <elementUI left="13" top="61" width="19" height="19" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@ProgPastUnknow.png)8(0.00);}" bkInfoM_state="16(300*300)" drawFocus="false" transparent="true" showT="true" />
+                                                                                    </layoutObject>
+                                                                                    <layoutObject layout.width=":1" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" showT="true">
+                                                                                        <elementUI left="13" top="61" width="19" height="19" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@ProgPastUnknow.png)8(0.00);}" bkInfoM_state="16(300*300)" drawFocus="false" transparent="true" showT="true" />
+                                                                                    </layoutObject>
+                                                                                </layoutObject>
+                                                                            </layoutObject>
+                                                                            <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                                <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                                    <elementUI left="49" top="95" width="100" height="100" layout.width="fill" layout.height="fill" transparent="true" drawFocus="false" showT="true">
+                                                                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,2" showT="true">
+                                                                                            <shapeText left="45" top="13" layout.width="auto" layout.height="20" content="故障检测" textColor="#FF585858" showT="true" />
+                                                                                        </layoutObject>
+                                                                                    </elementUI>
+                                                                                </layoutObject>
+                                                                                <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                                    <elementUI left="49" top="95" width="100" height="100" layout.width="fill" layout.height="fill" transparent="true" drawFocus="false" showT="true">
+                                                                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,2" showT="true">
+                                                                                            <shapeText left="45" top="13" layout.width="auto" layout.height="20" content="垃圾检测" textColor="#FF585858" showT="true" />
+                                                                                        </layoutObject>
+                                                                                    </elementUI>
+                                                                                </layoutObject>
+                                                                                <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                                    <elementUI left="49" top="95" width="100" height="100" layout.width="fill" layout.height="fill" transparent="true" drawFocus="false" showT="true">
+                                                                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,2" showT="true">
+                                                                                            <shapeText left="45" top="13" layout.width="auto" layout.height="20" content="速度检测" textColor="#FF585858" showT="true" />
+                                                                                        </layoutObject>
+                                                                                    </elementUI>
+                                                                                </layoutObject>
+                                                                                <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                                    <elementUI left="49" top="95" width="100" height="100" layout.width="fill" layout.height="fill" transparent="true" drawFocus="false" showT="true">
+                                                                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,2" showT="true">
+                                                                                            <shapeText left="45" top="13" layout.width="auto" layout.height="20" content="安全检测" textColor="#FF585858" showT="true" />
+                                                                                        </layoutObject>
+                                                                                    </elementUI>
+                                                                                </layoutObject>
+                                                                                <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                                    <elementUI left="49" top="95" width="100" height="100" layout.width="fill" layout.height="fill" transparent="true" drawFocus="false" showT="true">
+                                                                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,2" showT="true">
+                                                                                            <shapeText left="45" top="13" layout.width="auto" layout.height="20" content="系统检测" textColor="#FF585858" showT="true" />
+                                                                                        </layoutObject>
+                                                                                    </elementUI>
+                                                                                </layoutObject>
+                                                                            </layoutObject>
+                                                                        </layoutObject>
+                                                                        <layoutObject layout.width="100" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" showT="true">
+                                                                            <buttonUI left="465" top="63" width="60" height="25" content="取消" transparent="true" drawFocus="false" bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(2,90.00,255,0,-2763307,100);5:1(32)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(2,90.00,255,0,-4144960,100);5:1(64)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(2,90.00,851493056,0,-8355712,100);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" showT="true" />
+                                                                        </layoutObject>
+                                                                    </layoutObject>
+                                                                </elementUI>
+                                                                <elementUI left="280" top="52" width="100" height="100" layout.width="fill" layout.height="fill" drawFocus="false" transparent="true" showT="false" show="false" />
+                                                                <elementUI left="255" top="108" width="100" height="100" layout.width="fill" layout.height="fill" transparent="true" drawFocus="false" showT="false" show="false" />
+                                                            </layoutObject>
+                                                        </layoutObject>
+                                                        <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                            <treeUI left="134" top="224" width="100" height="100" layout.width="fill" layout.height="fill" drawFocus="false" showT="true" id="@ID_Tree_tijian" />
+                                                        </layoutObject>
+                                                    </layoutObject>
+                                                </elementUI>
+                                            </layoutObject>
+                                            <layoutObject layout.width="253" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                <elementUI left="798" top="46" width="100" height="100" layout.width="fill" layout.height="fill" bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(1)8(0.00)21(1)22(-328966)23(255)7(1)11(1)12(-2368549)13(255);}" bkInfoM_state="16(300*300)" drawFocus="false" showT="true" transparent="true" mouseThrough="true">
+                                                    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                                                        <elementUI left="76" top="56" width="100" height="100" layout.width="fill" layout.height="132" drawFocus="false" mouseThrough="true" transparent="true" showT="true">
+                                                            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                                                                <layoutObject layout.width="fill" layout.height="65" layout.alignH="center" layout.alignV="bottom" layout.horizon="true" showT="true">
+                                                                    <buttonUI left="128" top="37" width="205" height="50" drawFocus="false" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@Login_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@Login_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@Login_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" showT="true" />
+                                                                </layoutObject>
+                                                                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.padding="30,0,0,0" showT="true" layout.space="0">
+                                                                    <shapePicture left="93" top="80" width="16" height="16" image="@Icon1.png" showT="true" />
+                                                                    <shapeText left="135" top="84" layout.width="auto" layout.height="20" content="开启炫动卫士图标" showT="true" font="@ID_FONT_page1_title2" />
+                                                                    <textLinkUI content="十秒免费注册" left="196" top="76" width="100" height="20" showT="true" underlineLeave="false" underlineStay="false" transparent="true" drawFocus="false" font="@ID_FONT_page1_title2" layout.width=":1" textColor="#FF2786EC" />
+                                                                </layoutObject>
+                                                                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="center" layout.alignV="center" layout.horizon="true" showT="true" layout.space="3">
+                                                                    <shapeText left="124" top="118" layout.width="auto" layout.height="20" content="专属特权:" font="@ID_FONT_page1_title2" showT="true" />
+                                                                    <buttonUI left="129" top="120" width="16" height="16" transparent="true" imageIcon="@Icon2.png" showT="true" />
+                                                                    <buttonUI left="129" top="120" width="16" height="16" transparent="true" imageIcon="@Icon3.png" showT="true" />
+                                                                    <buttonUI left="129" top="120" width="16" height="16" transparent="true" imageIcon="@Icon4.png" showT="true" />
+                                                                    <buttonUI left="129" top="120" width="16" height="16" transparent="true" imageIcon="@Icon5.png" showT="true" />
+                                                                    <buttonUI left="129" top="120" width="16" height="16" transparent="true" imageIcon="@Icon6.png" showT="true" />
+                                                                    <buttonUI left="129" top="120" width="16" height="16" transparent="true" imageIcon="@Icon7.png" showT="true" />
+                                                                    <buttonUI left="129" top="120" width="16" height="16" transparent="true" imageIcon="@Icon8.png" showT="true" />
+                                                                </layoutObject>
+                                                            </layoutObject>
+                                                        </elementUI>
+                                                        <elementUI left="146" top="164" width="100" height="90" layout.width="fill" layout.height="90" bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-2368549)13(255);}" bkInfoM_state="16(300*300)" mouseThrough="true" drawFocus="false" transparent="true" showT="true">
+                                                            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.space="30" layout.padding="0,0,0,0" showT="true">
+                                                                <buttonUI left="78" top="38" width="50" height="45" drawFocus="false" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@GuardOpen_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@GuardOpen_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@GuardOpen_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" showT="true" />
+                                                                <shapeLine pointX1="141" pointY1="38" pointX2="141" pointY2="100" color="#FFDBDBDB" showT="true" />
+                                                                <buttonUI left="185" top="32" width="50" height="45" transparent="true" drawFocus="false" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@PayinsureClose_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@PayinsureClose_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@PayinsureClose_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" showT="true" />
+                                                            </layoutObject>
+                                                        </elementUI>
+                                                        <layoutObject layout.width="fill" layout.height="30" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" layout.padding="10,0,0,0" showT="true">
+                                                                <shapeText left="57" top="234" layout.width="auto" layout.height="20" content="功能大全" font="@ID_FONT_0" textColor="#FF338035" showT="true" />
+                                                            </layoutObject>
+                                                            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="right" layout.alignV="center" layout.horizon="true" showT="true">
+                                                                <buttonUI left="177" top="232" width="60" height="25" content="更多" textColor="#FF2786EC" font="@ID_FONT_page1_title2" drawFocus="false" textAlign="DT_CENTER | DT_VCENTER | " bindEle="@ID_page1_pane2" showT="true" bkInfoM="{5:1(32)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(-328966)23(255);5:1(16)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(-1)23(255);}" bkInfoM_state="32(300*300),16(300*300)" id="@ID_btn_show_pane2" />
+                                                            </layoutObject>
+                                                        </layoutObject>
+                                                        <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true">
+                                                                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true" layout.padding="0,0,0,0">
+                                                                    <buttonUI left="20" top="280" content="网络管理" layout.width="fill" layout.height="fill" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@AppBkg_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@AppBkg_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@AppBkg_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" drawFocus="false" iconAlign="top" textAlign="DT_CENTER | " imageIcon="@AppImage1.png" font="@ID_FONT_page1_title2" showT="true">
+                                                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,5,10,2" showT="true">
+                                                                            <shapePicture left="60" top="15" width="15" height="15" showT="true" image="@AppNew.png" />
+                                                                        </layoutObject>
+                                                                    </buttonUI>
+                                                                </layoutObject>
+                                                                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                    <buttonUI left="167" top="253" width="85" height="70" content="DNS优选" layout.width="fill" layout.height="fill" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@AppBkg_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@AppBkg_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@AppBkg_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" drawFocus="false" iconAlign="top" textAlign="DT_CENTER | " font="@ID_FONT_page1_title2" imageIcon="@AppImage4.png" showT="true">
+                                                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,5,10,2" showT="true">
+                                                                            <shapePicture left="60" top="15" width="15" height="15" showT="true" image="@AppNew.png" />
+                                                                        </layoutObject>
+                                                                    </buttonUI>
+                                                                </layoutObject>
+                                                                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                    <buttonUI left="167" top="253" width="85" height="70" content="宽带测速器" layout.width="fill" layout.height="fill" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@AppBkg_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@AppBkg_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@AppBkg_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" drawFocus="false" iconAlign="top" textAlign="DT_CENTER | " font="@ID_FONT_page1_title2" imageIcon="@AppImage7.png" showT="true" />
+                                                                </layoutObject>
+                                                            </layoutObject>
+                                                            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true">
+                                                                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true">
+                                                                    <buttonUI left="20" top="280" content="360壁纸" layout.width="fill" layout.height="fill" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@AppBkg_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@AppBkg_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@AppBkg_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" drawFocus="false" iconAlign="top" textAlign="DT_CENTER | " font="@ID_FONT_page1_title2" imageIcon="@AppImage2.png" showT="true">
+                                                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,5,10,2" showT="true">
+                                                                            <shapePicture left="60" top="15" width="15" height="15" showT="true" image="@AppNew.png" />
+                                                                        </layoutObject>
+                                                                    </buttonUI>
+                                                                </layoutObject>
+                                                                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                    <buttonUI left="167" top="253" width="85" height="70" content="手机助手" layout.width="fill" layout.height="fill" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@AppBkg_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@AppBkg_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@AppBkg_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" drawFocus="false" iconAlign="top" textAlign="DT_CENTER | " font="@ID_FONT_page1_title2" imageIcon="@AppImage5.png" showT="true">
+                                                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,5,10,2" showT="true">
+                                                                            <shapePicture left="60" top="15" width="15" height="15" showT="true" image="@AppNew.png" />
+                                                                        </layoutObject>
+                                                                    </buttonUI>
+                                                                </layoutObject>
+                                                                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                    <buttonUI left="167" top="253" width="85" height="70" content="断网急救箱" layout.width="fill" layout.height="fill" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@AppBkg_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@AppBkg_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@AppBkg_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" drawFocus="false" iconAlign="top" textAlign="DT_CENTER | " font="@ID_FONT_page1_title2" imageIcon="@AppImage8.png" showT="true" />
+                                                                </layoutObject>
+                                                            </layoutObject>
+                                                            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true">
+                                                                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                    <buttonUI left="167" top="253" width="85" height="70" content="免费WIFI" layout.width="fill" layout.height="fill" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@AppBkg_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@AppBkg_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@AppBkg_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" drawFocus="false" iconAlign="top" textAlign="DT_CENTER | " font="@ID_FONT_page1_title2" imageIcon="@AppImage3.png" showT="true">
+                                                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,5,10,2" showT="true">
+                                                                            <shapePicture left="60" top="15" width="15" height="15" showT="true" image="@AppNew.png" />
+                                                                        </layoutObject>
+                                                                    </buttonUI>
+                                                                </layoutObject>
+                                                                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                    <buttonUI left="167" top="253" width="85" height="70" content="开机加速" layout.width="fill" layout.height="fill" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@AppBkg_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@AppBkg_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@AppBkg_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" drawFocus="false" iconAlign="top" textAlign="DT_CENTER | " font="@ID_FONT_page1_title2" imageIcon="@AppImage6.png" showT="true" />
+                                                                </layoutObject>
+                                                                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                                    <buttonUI left="167" top="253" width="85" height="70" content="360问答" layout.width="fill" layout.height="fill" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@AppBkg_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@AppBkg_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@AppBkg_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" drawFocus="false" iconAlign="top" textAlign="DT_CENTER | " font="@ID_FONT_page1_title2" imageIcon="@AppImage9.png" showT="true" />
+                                                                </layoutObject>
+                                                            </layoutObject>
+                                                        </layoutObject>
+                                                        <layoutObject layout.width="fill" layout.height="35" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                            <elementUI left="109" top="474" width="100" height="100" layout.width="fill" layout.height="fill" mouseThrough="true" transparent="true" drawFocus="false" bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-4144960)13(255);}" bkInfoM_state="16(300*300)" showT="true">
+                                                                <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                                                                    <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" showT="true" layout.padding="4,0,0,0">
+                                                                        <shapePicture left="20" top="15" width="17" height="12" image="@Success.png" showT="true" />
+                                                                        <shapeText left="122" top="11" layout.width="auto" layout.height="20" content="成功连接至云安全中心" font="@ID_FONT_page1_title2" showT="true" />
+                                                                    </layoutObject>
+                                                                    <layoutObject layout.width="90" layout.height="fill" layout.alignH="right" layout.alignV="center" layout.horizon="true" showT="true" layout.padding="0,0,4,0">
+                                                                        <shapeText left="176" top="12" layout.width="auto" layout.height="20" content="9.3.0.2001" showT="true" font="@ID_FONT_page1_title2" />
+                                                                        <buttonUI left="232" top="17" width="12" height="12" showT="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@Update_01.png)8(0.00);3:1(32)2(15)3(0,0,0,0)4(@Update_02.png)8(0.00);3:1(64)2(15)3(0,0,0,0)4(@Update_03.png)8(0.00);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" transparent="true" drawFocus="false" />
+                                                                    </layoutObject>
+                                                                </layoutObject>
+                                                            </elementUI>
+                                                        </layoutObject>
+                                                    </layoutObject>
+                                                </elementUI>
+                                            </layoutObject>
+                                        </layoutObject>
+                                    </elementUI>
+                                    <elementUI left="189" top="70" width="100" height="100" layout.width="fill" layout.height="fill" show="false" showT="false" drawFocus="false" id="@ID_page1_pane2" transparent="true">
+                                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                                            <layoutObject layout.width="100" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                <buttonUI left="-2" top="0" width="100" height="499" transparent="true" drawFocus="false" groupID="4" layout.width="fill" layout.height="fill" bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(838860800)23(50);}" bkInfoM_state="16(300*300)" check="false" showT="true" id="@ID_btn_hide_Pane2" />
+                                            </layoutObject>
+                                            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                                                <elementUI left="143" top="246" width="100" height="100" layout.width="fill" layout.height="fill" showT="true" drawFocus="false" transparent="true">
+                                                    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                                                        <listViewUI left="155" top="70" width="100" height="100" layout.width="fill" layout.height="fill" drawFocus="false" showT="true" id="@ID_ListView_app" />
+                                                    </layoutObject>
+                                                </elementUI>
+                                            </layoutObject>
+                                        </layoutObject>
+                                    </elementUI>
+                                </layoutObject>
+                            </elementUI>
+                            <elementUI left="309" top="180" width="100" height="100" layout.width="fill" layout.height="fill" showT="false" show="false" id="@ID_page2" />
+                            <elementUI left="305" top="193" width="100" height="100" layout.width="fill" layout.height="fill" showT="false" show="false" id="@ID_page3" />
+                            <elementUI left="284" top="266" width="100" height="100" layout.width="fill" layout.height="fill" showT="false" show="false" id="@ID_page4" />
+                            <elementUI left="264" top="289" width="100" height="100" layout.width="fill" layout.height="fill" showT="false" show="false" id="@ID_page5" />
+                            <elementUI left="264" top="289" width="100" height="100" layout.width="fill" layout.height="fill" showT="false" show="false" id="@ID_page6" />
+                            <elementUI left="341" top="296" width="100" height="100" layout.width="fill" layout.height="fill" showT="false" show="false" id="@ID_page7" />
+                            <elementUI left="310" top="352" width="100" height="100" layout.width="fill" layout.height="fill" showT="false" show="false" id="@ID_page8" />
+                        </layoutObject>
+                    </layoutObject>
+                </elementUI>
+            </layoutObject>
+        </elementUI>
+    </layoutObject>
+</windowUI>

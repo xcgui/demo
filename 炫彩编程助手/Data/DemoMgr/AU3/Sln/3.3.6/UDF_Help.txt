@@ -1,0 +1,54 @@
+本例程由guland编写制作。
+此文件会跟随UDF一同更新,更新UDF时请查看本文件以了解UDF更新内容!
+更新日期:2016年3月28日
+=============================
+
+以下函数的使用方法与官方略有不同,使用时需注意!!
+----------全局函数--------------------
+XC_EnableDebugFile($_bEnabel)
+是否输出调试文件 xcgui_debug.txt
+$_bEnabel= True/False  
+
+----------Element-基础元素--------------------
+
+XEle_GetRect($_hEle)
+获取元素坐标
+$_hEle=控件句柄
+返回值为数组   [0]坐标X   [1]坐标Y
+
+----------RichEdit-富文本编辑框--------------------
+
+XRichEdit_GetText($_hEle, $_len)
+获取文本内容
+_hEle=控件句柄
+$_len=返回字符数量
+返回值为数组，[0] 是否成功  [2] 文本内容
+
+----------AdapterTable-数据适配器-XList-XListBox------------------
+
+XAdapterTable_GetItemText($_hAdapter, $_iItem, $_iColumn, $_nOutLen)
+获取项文本内容
+$_hAdapter=数据适配器句柄
+$_iItem=项索引
+$_iColumn=列索引
+$_nOutLen=缓冲区大小,字符为单位
+返回值为数组，[0] 是否成功  [4] 文本内容
+
+XAdapterTable_GetItemTextEx($_hAdapter, $_iItem, $_pName, $_nOutLen)
+获取项文本内容
+$_hAdapter=数据适配器句柄
+$_iItem=项索引
+$_pName=列名
+$_nOutLen=缓冲区大小,字符为单位
+返回值为数组，[0] 是否成功  [4] 文本内容
+
+XAdapterTable_GetItemALLText(列表句柄)
+获取列表选中项所有文本内容，以“ | ”间隔
+
+---------AdapterListView-数据适配器-列表视元素--------------
+
+XListView_GetSelectItem($_hEle)  
+获取选择项，
+$_hEle=控件句柄，
+返回值为数组，[0] 是否成功  [2]  分组索引  [3]  项索引
+

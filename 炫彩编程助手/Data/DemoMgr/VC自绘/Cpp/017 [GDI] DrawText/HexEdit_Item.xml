@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-列表视元素项模板文件-->
+<xc_template_listView showT="true">
+    <listView_Group showT="true">
+        <layoutObject widthT="300" heightT="30" layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="0,0,0,0" showT="true" />
+    </listView_Group>
+    <listView_item showT="true">
+        <layoutObject widthT="100" heightT="100" layout.horizon="false" layout.alignH="center" layout.alignV="top" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="0,0,0,0" showT="true">
+            <elementUI width="100" height="100" left="59" top="104" itemID="10" showT="true" layout.width="fill" layout.height="fill" />
+        </layoutObject>
+    </listView_item>
+</xc_template_listView>

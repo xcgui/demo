@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="0" layout.padding="0,0,0,0" widthT="400" showT="true">
+        <buttonUI itemID="1" width="13" height="13" expandButton="true" buttonType="check" layout.width="fill" layout.height="fill" transparent="true" drawFocus="false" iconAlign="right" buttonStyle="button" bkInfoM="{3:1(272)2(36)3(12,7,10,0)4(@item_close_btn_01.png)8(0.00);3:1(288)2(36)3(12,7,10,7)4(@item_close_btn_02.png)8(0.00);3:1(320)2(36)3(12,7,10,7)4(@item_close_btn_03.png)8(0.00);3:1(144)2(36)3(12,7,10,7)4(@item_open_btn_01.png)8(0.00);3:1(160)2(36)3(12,7,10,7)4(@item_open_btn_02.png)8(0.00);3:1(192)2(36)3(12,7,10,7)4(@item_open_btn_03.png)8(0.00);}" bkInfoM_state="272(300*300),288(300*300),320(300*300),144(300*300),160(300*300),192(300*300)" showT="true">
+            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                <layoutObject layout.width="50" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" showT="true">
+                    <shapePicture left="32" top="15" width="16" height="16" image="{binding field=name1 source=data bSync=false}" showT="true" />
+                </layoutObject>
+                <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" showT="true">
+                    <shapeText left="155" top="10" layout.width="auto" layout.height="20" content="{binding field=name2 source=data bSync=false}" font="@ID_FONT_tbar" showT="true" />
+                </layoutObject>
+                <layoutObject layout.width="100" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" showT="true">
+                    <shapeText left="313" top="17" layout.width="auto" layout.height="20" content="共" showT="true" />
+                    <shapeText left="336" top="9" layout.width="auto" layout.height="20" content="{binding field=name3 source=data bSync=false}" textColor="#FF0080FF" showT="true" />
+                    <shapeText left="347" top="12" layout.width="auto" layout.height="20" content="项" showT="true" />
+                </layoutObject>
+            </layoutObject>
+        </buttonUI>
+    </layoutObject>
+</xc_template_tree>

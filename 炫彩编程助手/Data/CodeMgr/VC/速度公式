@@ -1,0 +1,20 @@
+	double calc_V0(double s,double t)
+	{
+		return s*2/t;
+	}
+	double Calc_a(double v0,double t)
+	{
+		return v0/t;
+	}
+
+// 		V0 = at;
+// 		(at*at)/2a;
+
+//		Vt = V0 + a*t;
+//		S  = ( Vt^2 - V0^2 ) /2a
+//		100 = (X*X)/2*0.2;
+// 		s*2 = *a*t^2;
+// ---------------
+//      4
+
+//		vt的平方—v0的平方=2ax

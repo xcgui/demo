@@ -1,0 +1,14 @@
+XWnd_RegEventC (hWindow, #WM_SIZE, 到整数 (&OnWndSize))
+
+.版本 2
+
+.子程序 OnWndSize, 整数型
+.参数 nFlags, 整数型
+.参数 pSize, 整数型
+.参数 pbHandled, 逻辑型, 参考
+.局部变量 sz, SIZE
+
+CopyMemory_size_int (sz, pSize, LocalSize_size (sz))
+超级浏览框.移动 (8, 30, sz.cx － 16, sz.cy － 38)
+
+返回 (0)

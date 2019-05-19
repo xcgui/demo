@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<DemoManager>
+	<MainWindow x="143" y="32" cx="776" cy="623" sel="0" />
+	<page1>
+		<Sln Type="6" />
+		<SlnVer Ver="0" />
+		<Temp Path="" />
+		<lang Type="" />
+		<langIndex index="" />
+	</page1>
+	<page2>
+		<langIndex index="0" />
+	</page2>
+	<page3>
+		<langIndex index="0" />
+	</page3>
+</DemoManager>

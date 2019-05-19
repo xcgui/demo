@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI bkInfoM="{5:1(1)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(-2039584)23(255);}" bkInfoM_state="1(300*300)" content="炫彩编程助手" drawBk="false" height="550" layoutBottom="20" layoutLeft="0" layoutRight="0" layoutTop="100" left="20" showT="true" top="20" width="760">
+    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="right" layout.alignV="top" layout.flag="XC_LAYOUT_TOP" layout.height="fill" layout.horizon="true" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width="317" mouseThrough="true" showT="true" expandT="true">
+            <shapePicture height="78" image="@6.png" layout.height="fill" layout.width="fill" left="71" showT="true" top="34" width="100" expandT="true" />
+        </layoutEleUI>
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="right" layout.alignV="top" layout.height="50" layout.horizon="true" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="right" layout.alignV="bottom" layout.height="fill" layout.horizon="true" layout.padding="0,0,0,0" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                    <shapeGif height="40" image="@dtbqxdu2.gif" left="515" showT="true" top="29" width="312" expandT="true" />
+                </layoutEleUI>
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="right" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="0,0,3,0" layout.space="3" layout.width="70" mouseThrough="true" showT="true" expandT="true">
+                    <buttonUI bkInfoM="{5:1(272)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(855569663)23(50);5:1(288)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(1358886143)23(80);}" bkInfoM_state="272(200*200),288(200*200)" buttonType="min" content="-" drawFocus="false" expandButton="false" height="22" left="425" showT="true" textColor="#FF808080" top="9" transparent="true" width="30" expandT="true" />
+                    <buttonUI bkInfoM="{5:1(272)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(855569663)23(50);5:1(288)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(-14285841)23(255);}" bkInfoM_state="272(200*200),288(200*200)" buttonType="close" content="×" drawFocus="false" height="22" left="437" showT="true" textColor="#FF808080" top="17" transparent="true" width="30" expandT="true" />
+                </layoutEleUI>
+            </layoutEleUI>
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="center" layout.alignV="bottom" layout.height=":1" layout.horizon="true" layout.padding="10,10,10,0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                <buttonUI bindEle="@ID_page1" bkInfoM="{5:1(288)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(1023410175)23(60);5:1(320)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(1694498815)23(100);5:1(128)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(2030043135)23(120);}" bkInfoM_state="272(200*200),288(200*200),320(200*200),128(200*200)" buttonStyle="button" buttonType="radio" check="true" content="代码管理" enableFocus="false" font="@ID_FONT_0" groupID="1" height="40" iconAlign="top" id="800" layout.height="fill" layout.width=":1" left="285" showT="true" textAlign="DT_CENTER | DT_VCENTER | DT_SINGLELINE | DT_END_ELLIPSIS | " textColor="#FF808080" top="28" transparent="true" width="120" expandT="true" />
+                <buttonUI bindEle="@ID_page2" bkInfoM="{5:1(288)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(1023410175)23(60);5:1(320)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(1694498815)23(100);5:1(128)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(2030043135)23(120);}" bkInfoM_state="272(200*200),288(200*200),320(200*200),128(200*200)" buttonStyle="button" buttonType="radio" check="false" content="炫彩教程" enableFocus="false" font="@ID_FONT_0" groupID="1" height="40" iconAlign="top" id="801" layout.height="fill" layout.width=":1" left="285" showT="true" textAlign="DT_CENTER | DT_VCENTER | DT_SINGLELINE | DT_END_ELLIPSIS | " textColor="#FF808080" top="28" transparent="true" width="120" expandT="true" />
+                <buttonUI bindEle="@ID_page3" bkInfoM="{5:1(288)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(1023410175)23(60);5:1(320)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(1694498815)23(100);5:1(128)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(2030043135)23(120);}" bkInfoM_state="272(200*200),288(200*200),320(200*200),128(200*200)" buttonStyle="button" buttonType="radio" check="false" content="UI&amp;脚本" enableFocus="false" font="@ID_FONT_0" groupID="1" height="40" iconAlign="top" id="802" layout.height="fill" layout.width=":1" left="359" showT="true" textAlign="DT_CENTER | DT_VCENTER | DT_SINGLELINE | DT_END_ELLIPSIS | " textColor="#FF808080" top="42" transparent="true" width="185" expandT="true" />
+            </layoutEleUI>
+        </layoutEleUI>
+    </layoutEleUI>
+    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.flag="XC_LAYOUT_BOTTOM" layout.height="fill" layout.horizon="true" layout.padding="1,1,1,1" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+        <elementUI drawFocus="false" height="100" layout.height="fill" layout.width="fill" left="109" showT="true" top="394" transparent="true" width="100" expandT="true">
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="5,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                <shapeText content="工程目录" layout.height="auto" layout.width="auto" left="61" showT="true" textColor="#FF808080" top="9" expandT="true" />
+                <richEditUI drawFocus="false" height="25" id="@ID_editPath" layout.height="fill" layout.width=":1" left="58" showT="true" textColor="#FF808080" top="0" transparent="true" width="551" expandT="true" />
+                <buttonUI content="打开" drawFocus="false" enableFocus="false" height="20" id="20" layout.height="fill" left="279" showT="true" textColor="#FF7B7B7B" top="6" transparent="true" width="60" expandT="true" />
+                <shapeText content="Ver 1.9.8" font="@ID_FONT_1" id="2000" layout.height="27" layout.width="100" left="57" showT="true" textColor="#FF808080" top="6" expandT="true" />
+                <textLinkUI content="检测新版中..." height="20" id="@ID_HelperVer" layout.height="fill" left="27" showT="true" top="9" transparent="true" underlineLeave="false" underlineStay="false" width="150" expandT="true" />
+            </layoutEleUI>
+        </elementUI>
+    </layoutEleUI>
+    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.flag="XC_LAYOUT_BODY" layout.height="fill" layout.horizon="true" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+        <elementUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(1)8(0.00)21(1)22(-328966)23(255)7(1)11(1)12(-4144960)13(255);}" bkInfoM_state="16(300*300)" enableFocus="false" height="100" id="@ID_page1" layout.height="fill" layout.width="fill" left="108" showT="true" top="178" width="100" expandT="true">
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.width=":4" mouseThrough="true" showT="true" expandT="true">
+                    <listBoxUI alpha="180" bkInfoM="{6:1(128)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(1694498815)23(100);}" bkInfoM_state="128(300*300)" drawFocus="false" enableFocus="false" height="100" id="@ID_page1_listbox" layout.height=":1" layout.width="fill" left="363" showT="true" top="103" width="100" expandT="true" />
+                </layoutEleUI>
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.width=":2" mouseThrough="true" showT="true" expandT="true">
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="40" layout.horizon="true" layout.padding="5,5,5,5" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                        <richEditUI bkInfoM="{5:1(1)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="1(300*300)" height="25" id="@ID_page1_editSearch" layout.height="fill" layout.width=":1" left="662" showT="true" textColor="#FF9B9B9B" top="28" width="100" expandT="true" />
+                    </layoutEleUI>
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="120" layout.horizon="true" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                        <elementUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(-328966)23(255);}" bkInfoM_state="16(300*300)" drawFocus="false" height="100" layout.height="fill" layout.width="fill" left="603" mouseThrough="true" showT="true" top="83" width="100" expandT="true">
+                            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="25" layout.horizon="true" layout.padding="5,0,5,0" layout.space="5" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                    <shapeText content="分类显示:" layout.height="20" layout.width="auto" left="29" showT="true" textColor="#FF808080" top="15" expandT="true" />
+                                    <elementUI bkInfoM="{5:1(16)2(48)3(300,1,0,2)10(0)20(1)8(0.00)21(1)22(-4144960)23(255);}" bkInfoM_state="16(300*300)" drawFocus="false" height="15" layout.width=":1" left="190" mouseThrough="true" showT="true" top="12" transparent="true" width="100" expandT="true" />
+                                </layoutEleUI>
+                                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="center" layout.alignV="top" layout.height=":1" layout.horizon="true" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                    <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="全部" height="25" id="@ID_page1_btn_showall" layout.width=":1" left="28" showT="true" textColor="#FF808080" top="36" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="完整示例" height="25" id="@ID_page1_btn_showcomplete" layout.width=":1" left="108" showT="true" textColor="#FF808080" top="46" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="元素" height="25" id="@ID_page1_btn_showele" layout.width=":1" left="159" showT="true" textColor="#FF808080" top="46" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="布局对象" height="25" id="@ID_page1_btn_showlayout" layout.width=":1" left="198" showT="true" textColor="#FF808080" top="58" width="60" expandT="true" />
+                                </layoutEleUI>
+                                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height=":2" layout.horizon="false" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="center" layout.alignV="top" layout.height=":1" layout.horizon="true" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                        <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="窗口" height="25" id="@ID_page1_btn_showWindow" layout.width=":1" left="43" showT="true" textColor="#FF808080" top="69" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="按钮" height="25" id="@ID_page1_btn_showBtn" layout.width=":1" left="115" showT="true" textColor="#FF808080" top="71" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="列表视图" height="25" id="@ID_page1_btn_listview" layout.width=":1" left="157" showT="true" textColor="#FF808080" top="74" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="自绘" height="25" id="@ID_page1_btn_showuserDraw" layout.width=":1" left="199" showT="true" textColor="#FF808080" top="75" width="60" expandT="true" />
+                                    </layoutEleUI>
+                                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="center" layout.alignV="top" layout.height=":1" layout.horizon="true" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                        <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="列表框" height="25" id="@ID_page1_btn_listbox" layout.width=":1" left="-2" showT="true" textColor="#FF808080" top="92" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="菜单" height="25" id="@ID_page1_btn_menu" layout.width=":1" left="97" showT="true" textColor="#FF808080" top="104" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="列表元素" height="25" id="@ID_page1_btn_list" layout.width=":1" left="161" showT="true" textColor="#FF808080" top="104" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="树" height="25" id="@ID_page1_btn_tree" layout.width=":1" left="198" showT="true" textColor="#FF808080" top="106" width="60" expandT="true" />
+                                    </layoutEleUI>
+                                </layoutEleUI>
+                            </layoutEleUI>
+                        </elementUI>
+                    </layoutEleUI>
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="false" layout.padding="5,5,5,0" layout.space="1" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="40" layout.horizon="true" layout.space="5" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                            <shapeText content="语言种类" layout.height="25" layout.width="80" left="530" showT="true" textColor="#FF808080" top="5" expandT="true" />
+                            <comboBoxUI bkInfoM="{5:1(1)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="1(300*300)" drawFocus="false" enableFocus="true" height="25" id="@ID_page1_comboBox" layout.width=":1" left="584" showT="true" textColor="#FF696969" top="24" width="100" expandT="true" />
+                        </layoutEleUI>
+                        <layoutEleUI drawBorder="false" enableCanvas="false" id="@ID_page1_layoutSlnVer" layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="false" layout.width="fill" mouseThrough="true" showT="true" expandT="true" />
+                    </layoutEleUI>
+                </layoutEleUI>
+            </layoutEleUI>
+        </elementUI>
+        <elementUI drawFocus="false" enableFocus="false" height="351" id="@ID_page2" layout.height="fill" layout.width="fill" left="0" show="false" showT="false" top="88" width="612" expandT="true">
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width=":4" mouseThrough="true" showT="true" expandT="true">
+                    <listBoxUI drawBorder="true" drawFocus="false" height="100" id="@ID_page2_listbox" layout.height="fill" layout.width="fill" left="181" showT="true" top="102" width="100" expandT="true" />
+                </layoutEleUI>
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.padding="5,5,5,5" layout.space="5" layout.width=":2" mouseThrough="true" showT="true" expandT="true">
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="30" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                        <richEditUI height="20" id="@ID_page2_editserch" layout.height="fill" layout.width=":1" left="579" showT="true" textColor="#FF808080" top="15" width="100" expandT="true" />
+                    </layoutEleUI>
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="25" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                        <shapeText content="语言种类" font="@ID_FONT_4" layout.height="fill" layout.width="auto" left="586" showT="true" textColor="#FF808080" top="45" expandT="true" />
+                        <comboBoxUI height="20" id="@ID_page2_combobox_lang" layout.height="fill" layout.width=":1" left="674" showT="true" textColor="#FF808080" top="30" width="100" expandT="true" />
+                    </layoutEleUI>
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="25" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                        <shapeText content="分类显示" font="@ID_FONT_4" layout.height="20" layout.width="auto" left="586" showT="true" textColor="#FF808080" top="45" expandT="true" />
+                        <elementUI bkInfoM="{5:1(1)2(37)3(10,1,10,1)10(0)20(1)8(0.00)21(1)22(-4144960)23(255);}" bkInfoM_state="1(300*300)" enableFocus="false" height="30" layout.height="fill" layout.width=":1" left="565" showT="true" top="30" transparent="true" width="195" expandT="true" />
+                    </layoutEleUI>
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="false" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height=":3" layout.horizon="true" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                            <layoutEleUI drawBorder="false" enableCanvas="false" id="@ID_page2_layout1" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.space="5" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="布局对象" height="25" layout.width="fill" left="511" showT="true" textColor="#FF808080" top="101" width="80" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="编辑框" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="列表元素" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="滚动视图" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="滚动条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="分页条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="日期" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                            </layoutEleUI>
+                            <layoutEleUI drawBorder="false" enableCanvas="false" id="@ID_page2_layout2" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.space="5" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="基础元素" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="组合框" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="树元素" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="工具条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="滑块条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="超链接" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="窗口" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                            </layoutEleUI>
+                            <layoutEleUI drawBorder="false" enableCanvas="false" id="@ID_page2_layout3" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.space="5" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="按钮元素" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="列表框" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="列表视图" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="菜单条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="进度条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="月历" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-986896)13(255);}" bkInfoM_state="16(300*300)" content="全部" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                            </layoutEleUI>
+                        </layoutEleUI>
+                        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="10" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true" />
+                        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true" />
+                    </layoutEleUI>
+                </layoutEleUI>
+            </layoutEleUI>
+        </elementUI>
+        <elementUI drawFocus="false" enableFocus="false" height="351" id="@ID_page3" layout.height="fill" layout.width="fill" left="0" show="false" showT="false" top="88" width="612" expandT="true">
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width=":4" mouseThrough="true" showT="true" expandT="true">
+                    <listBoxUI drawBorder="true" drawFocus="false" height="100" id="@ID_page3_listbox" layout.height="fill" layout.width="fill" left="181" showT="true" top="102" width="100" expandT="true" />
+                </layoutEleUI>
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.padding="5,5,5,5" layout.space="5" layout.width=":2" mouseThrough="true" showT="true" expandT="true">
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="30" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                        <richEditUI height="20" id="@ID_page3_editserch" layout.height="fill" layout.width=":1" left="579" showT="true" top="15" width="100" expandT="true" />
+                    </layoutEleUI>
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="25" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                        <shapeText content="脚本类型" layout.height="fill" layout.width="auto" left="545" showT="true" textColor="#FF808080" top="49" expandT="true" />
+                        <comboBoxUI height="20" id="@ID_page3_combobox" layout.height="fill" layout.width=":1" left="654" showT="true" textColor="#FF808080" top="49" width="100" expandT="true" />
+                    </layoutEleUI>
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="25" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                        <shapeText content="分类显示" font="@ID_FONT_4" layout.height="20" layout.width="auto" left="586" showT="true" textColor="#FF808080" top="45" expandT="true" />
+                        <elementUI bkInfoM="{5:1(1)2(37)3(10,1,10,1)10(0)20(1)8(0.00)21(1)22(-4144960)23(255);}" bkInfoM_state="1(300*300)" enableFocus="false" height="30" layout.height="fill" layout.width=":1" left="565" showT="true" top="30" transparent="true" width="195" expandT="true" />
+                    </layoutEleUI>
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="false" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height=":3" layout.horizon="true" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                            <layoutEleUI drawBorder="false" enableCanvas="false" id="@ID_page3_layout1" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.space="5" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                                <buttonUI content="布局对象" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="编辑框" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="列表元素" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="滚动视图" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="滚动条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="分页条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="日期" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                            </layoutEleUI>
+                            <layoutEleUI drawBorder="false" enableCanvas="false" id="@ID_page3_layou2" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.space="5" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                                <buttonUI content="基础元素" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="组合框" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="树元素" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="工具条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="滑块条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="超链接" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="窗口" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                            </layoutEleUI>
+                            <layoutEleUI drawBorder="false" enableCanvas="false" id="@ID_page3_layout3" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.space="5" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                                <buttonUI content="按钮元素" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="列表框" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="列表视图" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="菜单条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="进度条" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="月历" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                                <buttonUI content="全部" height="25" layout.width="fill" left="553" showT="true" textColor="#FF808080" top="130" width="60" expandT="true" />
+                            </layoutEleUI>
+                        </layoutEleUI>
+                        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true" />
+                    </layoutEleUI>
+                </layoutEleUI>
+            </layoutEleUI>
+        </elementUI>
+        <elementUI drawFocus="false" enableFocus="false" height="351" id="@ID_page4" layout.height="fill" layout.width="fill" left="0" show="false" showT="false" top="88" width="612" expandT="true">
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true" />
+        </elementUI>
+    </layoutEleUI>
+</windowUI>

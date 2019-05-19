@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="5,2,2,2" layout.space="6" layout.width="auto" mouseThrough="true" showT="true" widthT="200" expandT="true">
+        <elementUI bkInfoM="{99:1.9.9;3:2(15)4({binding field=name3});98:16(0);}" height="22" itemID="3" showT="true" width="22" expandT="true" />
+        <shapeText content="{binding field=name source=data bSync=false}" itemID="2" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        <shapeText content="{binding field=name2 source=data bSync=false}" itemID="2" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        <elementUI bkInfoM="{99:1.9.9;3:2(15)4({binding field=name5});98:16(0);}" enableFocus="false" height="10" itemID="3" showT="true" transparent="true" width="30" expandT="true" />
+    </layoutEleUI>
+</xc_template_tree>

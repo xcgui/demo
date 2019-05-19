@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-资源文件-->
+<resources>
+    <type_image>
+        <image name="closeIcon.png" value=".\image\closeIcon.png" loadType="file" style="default" />
+        <image name="bk.png" value=".\image\bk.png" loadType="file" style="image9" rect9="30,34,30,33" />
+        <image name="pb.png" value=".\image\pb.png" loadType="file" style="image9" rect9="30,34,30,33" />
+    </type_image>
+    <type_id />
+    <type_font />
+    <type_string />
+    <type_color />
+</resources>

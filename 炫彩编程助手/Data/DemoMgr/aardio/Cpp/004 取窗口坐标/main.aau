@@ -1,0 +1,28 @@
+import xc;
+import win;
+
+class RECT{
+int left = 0;
+int top = 0;
+int right = 0;
+int bottom = 0;
+}
+
+
+
+
+::XInitXCGUI("");
+var hWindow = ::XWnd_Create(0,0,500,400,string.toUnicode("Ï≈≤ ΩÁ√Êø‚"),0,47/*_xc_window_style_default*/);
+
+::XBtn_SetType(::XBtn_Create(8,5,100,20,string.toUnicode("πÿ±’"),hWindow),3/*_button_type_close*/);
+
+
+var rt = RECT();
+::XWnd_GetClientRect(hWindow,rt);
+
+var str = string.format("%d-%d-%d-%d",rt.left,rt.top,rt.right,rt.bottom);
+win.msgbox(str);
+
+::XWnd_ShowWindow(hWindow,5);
+::XRunXCGUI();
+::XExitXCGUI();

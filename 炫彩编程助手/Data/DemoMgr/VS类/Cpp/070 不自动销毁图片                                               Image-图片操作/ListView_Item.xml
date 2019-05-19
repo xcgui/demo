@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表视元素项模板文件-->
+<xc_template_listView>
+    <listView_Group showT="true">
+        <layoutObject type="group" layout.horizon="true" layout.alignH="left" layout.alignV="top" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <buttonUI expandButton="true" width="80" layout.height="fill" buttonType="check" content="展开-收缩" showT="true" />
+            <shapeText itemID="1" layout.width="auto" layout.height="fill" content="{binding field=name3 source=data bSync=false}" showT="true" />
+        </layoutObject>
+    </listView_Group>
+    <listView_item showT="true">
+        <layoutObject type="item" layout.horizon="true" layout.alignH="center" layout.alignV="top" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,5,2,2" widthT="200" heightT="100" showT="true">
+            <layoutObject layout.width="100" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" showT="true">
+                <shapePicture left="74" top="74" width="80" height="80" image="{binding field=name source=data bSync=false}" showT="true" />
+            </layoutObject>
+            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="false" layout.space="10" showT="true">
+                <shapeText left="176" top="52" layout.width="fill" layout.height="auto" content="{binding field=name1 source=data bSync=false}" textAlign="DT_END_ELLIPSIS | " showT="true" />
+                <buttonUI left="124" top="59" width="60" height="26" content="安装" itemID="28" id="20" showT="true" />
+            </layoutObject>
+        </layoutObject>
+    </listView_item>
+</xc_template_listView>

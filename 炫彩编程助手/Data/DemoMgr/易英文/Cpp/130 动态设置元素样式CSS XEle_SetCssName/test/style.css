@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-样式文件-->
+<style>
+    <style_common />
+    <style_class>
+        <item bkInfoM="@ID_bkInfo_1" name="style_Skin1" objectType="22" />
+        <item bkInfoM="@ID_bkInfo_2" name="style_Skin2" objectType="22" />
+    </style_class>
+    <style_resource />
+    <resourceFile path=".\resource.res" />
+</style>

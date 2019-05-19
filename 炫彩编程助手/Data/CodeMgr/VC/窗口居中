@@ -1,0 +1,17 @@
+		HWND hWnd = XWnd_GetHWND(hWindowDemoPic);
+		//¾ÓÖÐ´°¿Ú
+		int scrWidth, scrHeight;
+		RECT rect;
+		
+		scrWidth = GetSystemMetrics(SM_CXSCREEN);
+		scrHeight = GetSystemMetrics(SM_CYSCREEN);
+		XWnd_GetClientRect(hWindowDemoPic,&rect);
+//		GetWindowRect(hWnd, &rect);
+		rect.right = rect.left + XImage_GetWidth(hImage) +16;
+		rect.bottom= rect.top  + XImage_GetHeight(hImage)+38;
+		
+   SetWindowPos(hWnd, HWND_TOP, 
+	   (scrWidth - rect.right) / 2,
+	   (scrHeight - rect.bottom) / 2,
+	   rect.right - rect.left,
+	   rect.bottom - rect.top, SWP_SHOWWINDOW);

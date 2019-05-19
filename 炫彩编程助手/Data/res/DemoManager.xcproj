@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-项目配置文件-->
+<project name="DemoManager">
+    <layoutFiles>
+        <param path="layout.xml" />
+        <param path=".\DemoGif.xml" />
+        <param path=".\DemoPic.xml" />
+        <param path=".\Page1_ListBox_Item.xml" />
+        <param path=".\Page2_ListBox_Item.xml" />
+        <param path=".\Page3_ListBox_Item.xml" />
+        <param path=".\ComboBox_ListBox_Item.xml" />
+        <param path=".\Page1_ListBox_Item - bak.xml" />
+        <param path=".\Page1_ListBox_Item_Select.xml" />
+        <param path=".\Page1_ListBox_Item_Stay.xml" />
+    </layoutFiles>
+    <styleFiles>
+        <param path=".\style.css" />
+        <param path=".\style2.css" currentCSS="true" />
+    </styleFiles>
+    <resourceFiles>
+        <param path=".\resource.res" />
+        <param path=".\资源1.res" />
+        <param path=".\资源2.res" />
+    </resourceFiles>
+</project>

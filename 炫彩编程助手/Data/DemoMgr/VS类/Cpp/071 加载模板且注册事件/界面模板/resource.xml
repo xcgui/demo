@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-资源文件-->
+<resources>
+    <type_image>
+        <image name="main.jpg" value=".\Image\main.jpg" loadType="file" style="default" />
+    </type_image>
+    <type_id />
+    <type_font />
+    <type_string />
+    <type_color />
+</resources>

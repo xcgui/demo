@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-列表视元素项模板文件-->
+<head>
+    <bindJsFile value="" />
+</head>
+<xc_template_listView showT="true">
+    <listView_Group showT="true" expandT="true">
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+            <buttonUI buttonType="check" content="展开-收缩" expandButton="true" layout.height="fill" width="80" showT="true" expandT="true" />
+            <shapeText content="{binding field=name3 source=data bSync=false}" itemID="1" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        </layoutEleUI>
+    </listView_Group>
+    <listView_item showT="true" expandT="true">
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="center" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.padding="2,5,2,2" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+            <shapePicture height="65" image="{binding field=name1 source=data bSync=false}" itemID="1" width="70" showT="true" expandT="true" />
+            <shapeText content="{binding field=name2 source=data bSync=false}" itemID="2" layout.height="20" layout.width="auto" showT="true" expandT="true" />
+        </layoutEleUI>
+    </listView_item>
+</xc_template_listView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表框元素项模板文件-->
+<xc_template_listBox>
+    <layoutObject type="item" layout.horizon="true" layout.alignH="left" layout.alignV="top" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+        <buttonUI left="161" top="77" width="60" height="25" content="Button" itemID="2" showT="true" buttonType="check" />
+        <shapeText left="197" top="89" layout.width="auto" layout.height="20" content="TextBlock" itemID="3" showT="true" />
+    </layoutObject>
+</xc_template_listBox>

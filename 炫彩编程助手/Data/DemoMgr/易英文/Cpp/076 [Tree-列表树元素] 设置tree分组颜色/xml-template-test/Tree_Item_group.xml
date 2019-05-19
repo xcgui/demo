@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" widthT="400" showT="true">
+        <elementUI left="355" top="44" width="100" height="100" layout.width="fill" layout.height="fill" mouseThrough="true" transparent="true" itemID="5" showT="true">
+            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+                <buttonUI itemID="1" width="13" height="13" expandButton="true" buttonType="check" showT="true" />
+                <shapeText itemID="2" layout.width="auto" layout.height="fill" content="{binding field=name source=data bSync=false}" showT="true" />
+            </layoutObject>
+        </elementUI>
+    </layoutObject>
+</xc_template_tree>

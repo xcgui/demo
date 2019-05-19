@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI bkInfoM="{99:1.9.9;3:2(7)3(0,0,0,90)4(@back-top.png);5:2(15)10(1)7(1)11(3)16(0)12(-2130706433)13(128);3:2(13)3(-2,30,2,0)4(@back-top.png);98:1(0,1,2);}" content="炫彩界面库 - 我的窗口名" dragWindow="true" height="671" layoutBottom="1" layoutLeft="1" layoutRight="1" layoutTop="1" left="0" showT="true" top="20" transparentAlpha="255" transparentFlag="shadow" width="887">
+    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.flag="window_position_body" layout.height="fill" layout.horizon="false" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="89" layout.horizon="true" layout.width="fill" mouseThrough="true" nameT="顶部" showT="true" expandT="false">
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width="250" mouseThrough="true" showT="true" expandT="false">
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="right" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.width="67" mouseThrough="true" showT="true" expandT="true">
+                    <shapePicture height="50" image="@logo.png" left="2" showT="true" top="2" width="50" expandT="true" />
+                </layoutEleUI>
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                    <shapePicture height="75" image="@title.png" left="76" showT="true" top="16" width="144" expandT="true" />
+                </layoutEleUI>
+            </layoutEleUI>
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="right" layout.alignV="top" layout.height="22" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                    <buttonUI bkInfoM="{99:1.9.9;5:2(15)20(1)21(3)26(0)22(-5014272)23(255);5:2(15)20(1)21(3)26(0)22(-927103744)23(200);5:2(48)3(12,12,0,12)10(1)7(1)11(3)16(0)12(-1)13(255);5:2(48)3(12,8,12,5)10(1)7(1)11(3)16(0)12(-1)13(255);98:16(2,3)32(1,2,3)64(0,2,3);}" buttonType="min" height="25" id="@ID_Main_Btn_Chm" left="672" showT="true" top="17" transparent="true" width="40" expandT="true" />
+                    <buttonUI bkInfoM="{99:1.9.9;5:2(15)20(1)21(3)26(0)22(-5014272)23(255);5:2(15)20(1)21(3)26(0)22(-927103744)23(200);98:16()32(1)64(0);}" buttonType="min" height="25" imageIcon="@title_min.png" left="672" showT="true" top="17" transparent="true" width="40" expandT="true" />
+                    <buttonUI bkInfoM="{99:1.9.9;5:2(15)20(1)21(3)26(0)22(-16777074)23(255);5:2(15)20(1)21(3)26(0)22(-14204716)23(255);98:16()32(1)64(0);}" buttonType="close" height="25" imageIcon="@title_close.png" left="804" showT="true" top="23" transparent="true" width="50" expandT="true" />
+                </layoutEleUI>
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="bottom" layout.height=":1" layout.horizon="true" layout.padding="30,0,0,0" layout.space="1" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                    <buttonUI bindEle="@ID_page1" bkInfoM="{99:1.9.9;3:2(15)4(@代码管理.png);3:2(15)4(@tab_back.png);98:272(0)288(1,0)320(1,0)128(1,0);}" bkInfoM_nameT="1(背景光)" buttonType="radio" check="true" groupID="10" height="52" id="@ID_Button_Tab1" left="202" showT="true" top="24" transparent="true" width="128" expandT="true" />
+                    <shapePicture height="46" image="@split.png" left="818" showT="true" top="70" width="10" expandT="true" />
+                    <buttonUI bindEle="@ID_page2" bkInfoM="{99:1.9.9;3:2(15)4(@炫彩教程.png);3:2(15)4(@tab_back.png);98:272(0)288(1,0)320(1,0)128(1,0);}" bkInfoM_nameT="1(背景光)" buttonType="radio" groupID="10" height="52" id="@ID_Button_Tab2" left="312" showT="true" top="50" transparent="true" width="128" expandT="true" />
+                    <shapePicture height="46" image="@split.png" left="570" showT="true" top="54" width="10" expandT="true" />
+                    <buttonUI bindEle="@ID_page3" bkInfoM="{99:1.9.9;3:2(15)4(@UI脚本.png);3:2(15)4(@tab_back.png);98:272(0)288(1,0)320(1,0)128(1,0);}" bkInfoM_nameT="1(背景光)" buttonType="radio" groupID="10" height="52" id="@ID_Button_Tab3" left="395" showT="true" top="47" transparent="true" width="128" expandT="true" />
+                    <shapePicture height="46" image="@split.png" left="848" showT="true" top="71" width="10" expandT="true" />
+                    <buttonUI bindEle="@ID_page4" bkInfoM="{99:1.9.9;3:2(15)4(@工具教程.png);3:2(15)4(@tab_back.png);98:272(0)288(1,0)320(1,0)128(1,0);}" bkInfoM_nameT="1(背景光)" buttonType="radio" groupID="10" height="52" id="@ID_Button_Tab4" left="420" showT="true" top="46" transparent="true" width="128" expandT="true" />
+                </layoutEleUI>
+            </layoutEleUI>
+        </layoutEleUI>
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="true" layout.width="fill" mouseThrough="true" nameT="内容页" showT="true" expandT="true">
+            <elementUI drawBorder="false" enableFocus="false" height="100" id="@ID_page1" layout.height="fill" layout.width="fill" left="207" showT="true" top="275" width="100" expandT="true">
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.padding="0,0,2,0" layout.width=":1" mouseThrough="true" showT="true" expandT="false">
+                        <listBoxUI drawBorder="false" enableFocus="false" height="434" id="@ID_page1_listbox" layout.height="fill" layout.width="fill" left="0" showT="true" top="0" width="595" expandT="true" />
+                    </layoutEleUI>
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.width="260" mouseThrough="true" showT="true" expandT="true">
+                        <elementUI bkInfoM="{99:1.9.9;5:2(15)20(1)21(3)26(0)22(-986896)23(255);98:16(0);}" drawBorder="false" enableFocus="false" height="100" layout.height="fill" layout.width="fill" left="735" showT="true" top="364" width="100" expandT="true">
+                            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.padding="10,0,10,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="80" layout.horizon="false" layout.padding="0,20,0,0" layout.space="5" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                    <shapeText content="搜索内容:" layout.height="20" layout.width="auto" left="96" showT="true" top="40" expandT="true" />
+                                    <richEditUI height="22" id="@ID_page1_editSearch" left="20" showT="true" top="45" width="213" expandT="true" />
+                                </layoutEleUI>
+                                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="25" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                    <shapeText content="分类标签:" layout.height="20" layout.width="auto" left="41" showT="true" top="154" expandT="true" />
+                                </layoutEleUI>
+                                <elementUI height="100" id="@ID_page1_Layout_Category" layout.height="160" layout.width="fill" left="4" nameT="移动到这里" showT="true" top="240" transparent="true" width="100" expandT="true">
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="全部" groupID="11" height="25" id="@ID_page1_btn_showall" layout.width="auto" left="5" showT="true" top="12" transparent="true" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="布局对象" groupID="11" height="25" id="@ID_page1_btn_showlayout" layout.width="auto" left="79" showT="true" top="12" transparent="true" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="列表框" groupID="11" height="25" id="@ID_page1_btn_listbox" layout.width="auto" left="152" showT="true" top="12" transparent="true" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="菜单" groupID="11" height="25" id="@ID_page1_btn_menu" layout.width="auto" left="5" showT="true" top="52" transparent="true" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="完整示例" groupID="11" height="25" id="@ID_page1_btn_showcomplete" layout.width="auto" left="77" showT="true" top="52" transparent="true" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="窗口" groupID="11" height="25" id="@ID_page1_btn_showWindow" layout.width="auto" left="152" showT="true" top="52" transparent="true" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="自绘" groupID="11" height="25" id="@ID_page1_btn_showuserDraw" layout.width="auto" left="5" showT="true" top="86" transparent="true" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="列表元素" groupID="11" height="25" id="@ID_page1_btn_list" layout.width="auto" left="79" showT="true" top="86" transparent="true" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="元素" groupID="11" height="25" id="@ID_page1_btn_showele" layout.width="auto" left="152" showT="true" top="86" transparent="true" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="按钮" groupID="11" height="25" id="@ID_page1_btn_showBtn" layout.width="auto" left="5" showT="true" top="124" transparent="true" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="列表视图" groupID="11" height="25" id="@ID_page1_btn_listview" layout.width="auto" left="77" showT="true" top="124" transparent="true" width="60" expandT="true" />
+                                    <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="树" groupID="11" height="25" id="@ID_page1_btn_tree" layout.width="auto" left="152" showT="true" top="124" transparent="true" width="60" expandT="true" />
+                                </elementUI>
+                                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="25" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                    <shapeText content="语言分类:" layout.height="20" layout.width="auto" left="229" showT="true" top="323" expandT="true" />
+                                    <comboBoxUI height="22" id="@ID_page1_comboBox" left="70" showT="true" top="265" width="165" expandT="true" />
+                                </layoutEleUI>
+                                <layoutEleUI drawBorder="false" enableCanvas="false" id="@ID_page1_layoutSlnVer" layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="false" layout.width="fill" mouseThrough="true" showT="true" expandT="true" />
+                            </layoutEleUI>
+                        </elementUI>
+                    </layoutEleUI>
+                </layoutEleUI>
+            </elementUI>
+            <elementUI bkInfoM="{99:1.9.9;5:2(15)20(1)21(3)26(0)22(-986896)23(255);98:16(0);}" drawBorder="false" enableFocus="false" height="600" id="@ID_page2" layout.height="fill" layout.width="fill" left="0" show="false" showT="false" top="98" width="800" expandT="false">
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="30" layout.horizon="true" layout.padding="10,0,10,0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                            <richEditUI height="22" id="@ID_page2_editserch" layout.width="fill" left="2" showT="true" top="7" width="300" expandT="true" />
+                        </layoutEleUI>
+                        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                            <listBoxUI drawBorder="false" enableFocus="false" height="400" id="@ID_page2_listbox" layout.height="fill" layout.width="fill" left="2" showT="true" top="32" width="554" expandT="true" />
+                        </layoutEleUI>
+                    </layoutEleUI>
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.padding="10,0,0,0" layout.width="260" mouseThrough="true" showT="true" expandT="true">
+                        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="45" layout.horizon="true" layout.padding="0,20,0,0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                            <shapeText content="分类标签:" layout.height="20" layout.width="auto" left="656" showT="true" top="15" expandT="true" />
+                        </layoutEleUI>
+                        <layoutEleUI drawBorder="false" enableCanvas="false" id="@ID_page2_Layout_Category" layout.alignH="left" layout.alignV="top" layout.height="200" layout.horizon="false" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="30" layout.horizon="true" layout.space="5" layout.width="fill" mouseThrough="true" showT="true" expandT="false">
+                                <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="全部" height="25" id="12" layout.width="auto" left="638" showT="true" top="100" transparent="true" width="60" expandT="true" />
+                                <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="布局对象" height="25" id="12" layout.width="auto" left="638" showT="true" top="37" transparent="true" width="60" expandT="true" />
+                                <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="编辑框" height="25" id="12" layout.width="auto" left="640" showT="true" top="52" transparent="true" width="60" expandT="true" />
+                                <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="列表元素" height="25" id="12" layout.width="auto" left="639" showT="true" top="91" transparent="true" width="60" expandT="true" />
+                            </layoutEleUI>
+                            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="30" layout.horizon="true" layout.space="5" layout.width="fill" mouseThrough="true" showT="true" expandT="false">
+                                <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="基础元素" groupID="12" height="25" layout.width="auto" left="727" showT="true" top="21" transparent="true" width="60" expandT="true" />
+                                <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="组合框" groupID="12" height="25" layout.width="auto" left="736" showT="true" top="45" transparent="true" width="60" expandT="true" />
+                                <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="树元素" groupID="12" height="25" layout.width="auto" left="743" showT="true" top="72" transparent="true" width="60" expandT="true" />
+                            </layoutEleUI>
+                            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="30" layout.horizon="true" layout.space="5" layout.width="fill" mouseThrough="true" showT="true" expandT="false">
+                                <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="按钮元素" groupID="12" height="25" layout.width="auto" left="825" showT="true" top="51" transparent="true" width="60" expandT="true" />
+                                <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="列表框" groupID="12" height="25" layout.width="auto" left="837" showT="true" top="88" transparent="true" width="60" expandT="true" />
+                                <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="列表视图" groupID="12" height="25" layout.width="auto" left="833" showT="true" top="107" transparent="true" width="60" expandT="true" />
+                            </layoutEleUI>
+                        </layoutEleUI>
+                        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="30" layout.horizon="true" layout.padding="0,0,0,0" layout.width="fill" mouseThrough="true" showT="true" expandT="false">
+                            <comboBoxUI height="22" id="@ID_page2_combobox_lang" left="558" showT="true" top="102" width="174" expandT="true" />
+                        </layoutEleUI>
+                    </layoutEleUI>
+                </layoutEleUI>
+            </elementUI>
+            <elementUI height="600" id="@ID_page3" layout.height="fill" layout.width="fill" left="0" show="false" showT="false" top="98" width="800" expandT="false">
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.padding="0,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                        <listBoxUI drawBorder="false" enableFocus="false" height="100" id="@ID_page3_listbox" layout.height="fill" layout.width="fill" left="214" showT="true" top="114" width="100" expandT="true" />
+                    </layoutEleUI>
+                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width="260" mouseThrough="true" showT="true" expandT="true">
+                        <elementUI bkInfoM="{99:1.9.9;5:2(15)20(1)21(3)26(0)22(-986896)23(255);98:16(0);}" height="100" layout.height="fill" layout.width="fill" left="648" showT="true" top="152" width="100" expandT="true">
+                            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.padding="10,0,0,0" layout.space="0" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="bottom" layout.height="70" layout.horizon="false" layout.space="5" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                    <shapeText content="标题搜索:" layout.height="20" layout.width="auto" left="53" showT="true" top="51" expandT="true" />
+                                    <richEditUI height="22" id="@ID_page3_editserch" left="2" showT="true" top="2" width="197" expandT="true" />
+                                </layoutEleUI>
+                                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="80" layout.horizon="false" layout.space="5" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                    <shapeText content="脚本搜索:" layout.height="20" layout.width="auto" left="97" showT="true" top="151" expandT="true" />
+                                    <comboBoxUI height="22" id="@ID_page3_combobox" left="2" showT="true" top="104" width="207" expandT="true" />
+                                </layoutEleUI>
+                                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="30" layout.horizon="true" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                    <shapeText content="分类标签:" layout.height="20" layout.width="auto" left="112" showT="true" top="173" expandT="true" />
+                                </layoutEleUI>
+                                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height=":1" layout.horizon="false" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="30" layout.horizon="true" layout.space="5" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="全部" groupID="13" height="25" layout.width="auto" left="38" showT="true" top="209" transparent="true" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="基础元素" groupID="13" height="25" layout.width="auto" left="95" showT="true" top="201" transparent="true" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="按钮元素" groupID="13" height="25" layout.width="auto" left="101" showT="true" top="190" transparent="true" width="6" expandT="true" />
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="树元素" groupID="13" height="25" layout.width="auto" left="245" showT="true" top="188" transparent="true" width="58" expandT="true" />
+                                    </layoutEleUI>
+                                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="30" layout.horizon="true" layout.space="5" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="布局对象" groupID="13" height="25" layout.width="auto" left="41" showT="true" top="238" transparent="true" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="组合框" groupID="13" height="25" layout.width="auto" left="105" showT="true" top="235" transparent="true" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="编辑框" groupID="13" height="25" layout.width="auto" left="161" showT="true" top="234" transparent="true" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="工具条" groupID="13" height="25" layout.width="auto" left="227" showT="true" top="220" transparent="true" width="46" expandT="true" />
+                                    </layoutEleUI>
+                                    <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="30" layout.horizon="true" layout.space="5" layout.width="fill" mouseThrough="true" showT="true" expandT="true">
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="列表框" groupID="13" height="25" layout.width="auto" left="60" showT="true" top="266" transparent="true" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="列表元素" groupID="13" height="25" layout.width="auto" left="101" showT="true" top="266" transparent="true" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="列表视图" groupID="13" height="25" layout.width="auto" left="147" showT="true" top="266" transparent="true" width="60" expandT="true" />
+                                        <buttonUI bkInfoM="@ID_button_tag" buttonType="radio" content="菜单条" groupID="13" height="25" layout.width="auto" left="264" showT="true" top="222" transparent="true" width="58" expandT="true" />
+                                    </layoutEleUI>
+                                </layoutEleUI>
+                            </layoutEleUI>
+                        </elementUI>
+                    </layoutEleUI>
+                </layoutEleUI>
+            </elementUI>
+            <elementUI drawBorder="false" enableFocus="false" height="434" id="@ID_page4" layout.height="fill" layout.width="fill" left="9" show="false" showT="false" top="98" width="860" expandT="false">
+                <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.padding="200,25,2,2" layout.space="20" layout.width="fill" mouseThrough="true" showT="true" expandT="false">
+                    <textLinkUI content="炫彩-设计器视频" drawBorder="false" drawFocus="false" height="25" id="@ID_Page4_Btn_Design" layout.width="auto" left="200" showT="true" top="25" width="203" expandT="true" />
+                    <textLinkUI content="炫彩-易语言视频" drawBorder="false" drawFocus="false" height="25" id="@ID_Page4_Btn_E1" layout.width="auto" left="120" showT="true" top="146" width="203" expandT="true" />
+                    <textLinkUI content="炫彩-易语言第三方视频" drawBorder="false" drawFocus="false" height="25" id="@ID_Page4_Btn_E2" layout.width="auto" left="129" showT="true" top="188" width="203" expandT="true" />
+                    <textLinkUI content="炫彩-Delphi视频" drawBorder="false" drawFocus="false" height="25" id="@ID_Page4_Btn_Delphi" layout.width="auto" left="209" showT="true" top="209" width="203" expandT="true" />
+                    <textLinkUI content="炫彩C#视频" drawBorder="false" drawFocus="false" height="25" id="@ID_Page4_Btn_Net" layout.width="auto" left="288" showT="true" top="211" width="203" expandT="true" />
+                    <textLinkUI content="炫彩-快手视频" drawBorder="false" drawFocus="false" height="25" id="@ID_Page4_Btn_Aauto" layout.width="auto" left="400" showT="true" top="211" width="203" expandT="true" />
+                    <textLinkUI content="炫彩-VS视频" drawBorder="false" drawFocus="false" height="25" id="@ID_Page4_Btn_Vs" layout.width="auto" left="374" showT="true" top="2" width="203" expandT="true" />
+                </layoutEleUI>
+            </elementUI>
+        </layoutEleUI>
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="top" layout.height="30" layout.horizon="true" layout.width="fill" mouseThrough="true" nameT="底部" showT="true" expandT="false">
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+                <textLinkUI content="www.xcgui.com" height="20" id="@ID_Main_Button_TmpDir" layout.width="auto" left="83" showT="true" textColor="#FFFFFFFF" textColorStay="#FF80FF00" top="547" transparent="true" underlineColorLeave="#FFFFFFFF" underlineColorStay="#FF00FF00" width="100" expandT="true" />
+            </layoutEleUI>
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="right" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.width="200" mouseThrough="true" showT="true" expandT="true">
+                <shapeText content="TextBlock" id="@ID_HelperTitle" layout.height="20" layout.width="auto" left="318" showT="true" textColor="#FFFFFFFF" top="23" expandT="true" />
+                <buttonUI content="自助更新" height="25" id="@ID_Main_Button_Updata" left="465" showT="true" textColor="#FFFFFFFF" top="547" transparent="true" width="60" expandT="true" />
+            </layoutEleUI>
+        </layoutEleUI>
+    </layoutEleUI>
+</windowUI>

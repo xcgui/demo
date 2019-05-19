@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="0" top="0" width="300" height="200" content="炫彩界面库 - 我的窗口名" layoutLeft="8" layoutTop="30" layoutRight="8" layoutBottom="8">
+    <buttonUI left="66" top="74" width="60" height="25" content="Button" id="10" showT="true" />
+</windowUI>

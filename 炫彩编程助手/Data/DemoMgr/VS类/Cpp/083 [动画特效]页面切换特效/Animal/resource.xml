@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-资源文件-->
+<resources>
+    <image name="ID_IMAGE_0" value=".\Page1\1.png" loadType="file" style="default" />
+</resources>

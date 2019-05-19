@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="20" top="20" width="484" height="426" content="炫彩界面库 - 我的窗口名" layoutLeft="8" layoutTop="30" layoutRight="8" layoutBottom="8">
+    <buttonUI left="27" top="39" width="100" height="32" content="Button" bkInfoM="{1:1(272)2(15)3(0,0,0,0)5(1095919)6(255);1:1(320)2(15)3(0,0,0,0)5(807411)6(255);1:1(144)2(15)3(0,0,0,0)5(5689901)6(255);1:1(160)2(15)3(0,0,0,0)5(5092221)6(255);1:1(192)2(15)3(0,0,0,0)5(5287838)6(255);1:1(288)2(15)3(0,0,0,0)5(1144302)6(255);}" bkInfoM_state="272(300*300),288(300*300),320(300*300),144(300*300),160(300*300),192(300*300)" buttonType="check" showT="true" />
+    <elementUI left="72" top="126" width="234" height="199" showT="true">
+        <shapeRect left="0" top="0" width="231" height="198" roundAngle="true" fill="false" showT="true" />
+    </elementUI>
+    <comboBoxUI left="85" top="140" width="207" height="21" showT="true" />
+</windowUI>

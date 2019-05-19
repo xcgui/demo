@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-资源文件-->
+<resources>
+    <type_image>
+        <image name="close_01.png" value="res\close_01.png" loadType="file" style="default" />
+        <image name="close_02.png" value="res\close_02.png" loadType="file" style="default" />
+        <image name="close_03.png" value="res\close_03.png" loadType="file" style="default" />
+        <image name="close_04.png" value="res\close_04.png" loadType="file" style="default" />
+    </type_image>
+    <type_id />
+    <type_font>
+        <font name="ID_FONT1" value="宋体" size="12" style="bold" />
+    </type_font>
+    <type_string />
+    <type_color />
+</resources>

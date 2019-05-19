@@ -1,0 +1,13 @@
+		RECT rcWorkAre;
+		SystemParametersInfo(SPI_GETWORKAREA, 0, (PVOID) &rcWorkAre, 0);
+
+		RECT rtClient;
+		XWnd_GetClientRect(m_hWindow,&rtClient);
+		
+		MoveWindow(
+			XWnd_GetHWND(m_hWindow),
+			rcWorkAre.right-rtClient.right,
+			rcWorkAre.bottom-rtClient.bottom,
+			rtClient.right,
+			rtClient.bottom,TRUE);
+		

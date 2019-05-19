@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-布局面板文件-->
+<layoutPanel showT="true">
+    <elementUI left="32" top="33" width="100" height="100" showT="true" layout.width="fill" layout.height="fill">
+        <buttonUI left="15" top="33" width="60" height="25" content="Button" showT="true" />
+    </elementUI>
+</layoutPanel>

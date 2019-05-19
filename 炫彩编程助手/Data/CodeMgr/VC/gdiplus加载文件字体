@@ -1,0 +1,48 @@
+VOID Example_AddFontFile(HDC hdc)
+{
+	Graphics              graphics(hdc);
+	SolidBrush            solidBrush(Color(255, 0, 0, 0));
+	INT                   found = 0;
+	INT                   count = 0;
+	WCHAR                 familyName[50];
+	FontFamily*           pFontFamily;
+	PrivateFontCollection privateFontCollection;
+	
+	// Add three font files to the private collection.
+	privateFontCollection.AddFontFile(L"Abduction2000.TTF");
+//	privateFontCollection.AddFontFile(L"C:\\WINNT\\Fonts\\Cour.ttf");
+//	privateFontCollection.AddFontFile(L"C:\\WINNT\\Fonts\\Times.ttf");
+	
+	// How many font families are in the private collection?
+	count = privateFontCollection.GetFamilyCount();
+	
+	// Allocate a buffer to hold the array of FontFamily objects returned by
+	// the GetFamilies method.
+	pFontFamily = (FontFamily*)malloc(count * sizeof(FontFamily));
+	
+	// Get the array of FontFamily objects.
+	privateFontCollection.GetFamilies(count, pFontFamily, &found);
+	
+	for(INT j = 0; j < found; ++j)
+	{
+		// Get the font family name.
+		pFontFamily[j].GetFamilyName(familyName);
+		
+		// Pass the family name and the address of the private collection to a
+		// Font constructor.
+		Font* pFont = new Font(familyName, 120, FontStyleRegular,
+			UnitPixel, &privateFontCollection);
+		
+		// Use the font to draw a string.
+		graphics.DrawString(
+			L"IBM", 
+			3,          // string length 
+			pFont, 
+			PointF(10.0f, (REAL)j*25), 
+			&solidBrush);
+		
+		delete(pFont);
+	}
+	
+	free(pFontFamily);
+}

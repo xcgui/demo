@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+        <buttonUI itemID="1" width="13" height="13" expandButton="true" buttonType="check" buttonStyle="check" showT="true" />
+        <shapeText itemID="2" layout.width="auto" layout.height="fill" content="{binding field=name source=data bSync=false}" showT="true" />
+    </layoutObject>
+</xc_template_tree>

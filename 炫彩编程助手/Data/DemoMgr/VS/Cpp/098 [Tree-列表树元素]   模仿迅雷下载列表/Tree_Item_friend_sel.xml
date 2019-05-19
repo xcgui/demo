@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutObject layout.horizon="false" layout.alignH="left" layout.alignV="center" layout.width="auto" layout.height="fill" layout.space="0" layout.padding="0,0,0,0" heightT="80" widthT="400" showT="true">
+        <layoutObject layout.width="fill" layout.height="40" layout.alignH="left" layout.alignV="center" layout.horizon="true" showT="true" layout.space="6" layout.padding="2,2,2,2">
+            <shapePicture left="79" top="42" width="40" height="40" showT="true" itemID="1" image="{binding field=name9 source=data bSync=false}" />
+            <layoutObject layout.width="100" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true">
+                <shapeText left="104" top="40" layout.width="auto" layout.height="20" content="{binding field=name1 source=data bSync=false}" showT="true" />
+                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                    <shapeText left="92" top="43" layout.width="auto" layout.height="20" content="{binding field=name2 source=data bSync=false}" showT="true" />
+                    <buttonUI left="150" top="46" width="40" height="20" content="举报" transparent="true" drawFocus="false" textColor="#FF0080FF" showT="true" />
+                </layoutObject>
+            </layoutObject>
+            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.space="10" showT="true">
+                <progressBarUI left="281" top="35" width="125" height="12" bkInfoM="{5:1(16)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-4144960)13(255);}" bkInfoM_state="16(300*300)" drawFocus="false" transparent="true" mouseThrough="true" itemID="2" showT="true">
+                    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                        <shapeText left="47" top="12" layout.width="auto" layout.height="20" content="{binding field=name4 source=data bSync=false}" showT="true" />
+                    </layoutObject>
+                </progressBarUI>
+                <shapeText left="365" top="44" layout.width="auto" layout.height="20" content="{binding field=name3 source=data bSync=false}" showT="true" />
+            </layoutObject>
+        </layoutObject>
+        <layoutObject layout.width="fill" layout.height="40" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true">
+                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true" layout.padding="40,0,0,0">
+                    <shapePicture left="61" top="71" width="10" height="10" showT="true" />
+                    <shapeText left="144" top="68" layout.width="auto" layout.height="20" content="{binding field=name5 source=data bSync=false}" showT="true" textColor="#FF646464" />
+                </layoutObject>
+                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true" layout.padding="40,0,0,0">
+                    <shapePicture left="151" top="90" width="10" height="10" showT="true" />
+                    <shapeText left="146" top="87" layout.width="auto" layout.height="20" content="{binding field=name6 source=data bSync=false}" showT="true" textColor="#FF646464" />
+                </layoutObject>
+            </layoutObject>
+            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="false" showT="true">
+                <shapeText left="293" top="70" layout.width="auto" layout.height="20" content="{binding field=name7 source=data bSync=false}" showT="true" />
+                <shapeText left="343" top="81" layout.width="auto" layout.height="20" content="{binding field=name8 source=data bSync=false}" showT="true" />
+            </layoutObject>
+        </layoutObject>
+    </layoutObject>
+</xc_template_tree>

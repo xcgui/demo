@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<xc_template_listBox>
+    <layoutObject type="item" layout.horizon="true" layout.alignH="left"  layout.alignV="top" layout.width="auto" layout.height="fill" layout.space=2 layout.padding="2,2,2,2" >
+        <shapeText itemID=1 layout.width="auto" layout.height="fill" content="{binding field=name source=data bSync=false}" />
+        <buttonUI  itemID=2 width=60 height=20 />
+    </layoutObject>
+</xc_template_listBox>

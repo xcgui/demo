@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-列表框元素项模板文件-->
+<xc_template_listBox>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="top" layout.width="auto" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+        <shapeText itemID="1" layout.width="auto" layout.height="fill" content="{binding field=name1 source=data bSync=false}" showT="true" />
+        <richEditUI width="100" height="20" left="87" top="33" itemID="2" content="{binding field=name2 source=data bSync=false}" showT="true" />
+    </layoutObject>
+</xc_template_listBox>

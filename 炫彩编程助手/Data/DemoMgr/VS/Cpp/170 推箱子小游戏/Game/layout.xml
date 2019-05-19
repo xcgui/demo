@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="0" top="0" width="500" height="450" content="炫彩界面库 - 我的窗口名" layoutLeft="55" layoutTop="40" layoutRight="55" layoutBottom="1" showT="true" center="true">
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" layout.flag="window_position_body" showT="true">
+        <elementUI width="200" height="200" left="145" top="207" id="@ID_Window_Body_GameBoard" showT="true" />
+    </layoutObject>
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" layout.flag="window_position_top" showT="true">
+        <layoutObject layout.width="100" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+            <shapeText layout.width="auto" layout.height="20" content="推箱子V1.0" left="15" top="5" font="@ID_FONT_0" showT="true" />
+        </layoutObject>
+        <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true" />
+        <layoutObject layout.width="100" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" showT="true">
+            <buttonUI width="40" height="25" content="-" left="437" top="6" buttonType="min" showT="true" />
+            <buttonUI width="40" height="25" content="X" left="418" top="14" buttonType="close" showT="true" />
+        </layoutObject>
+    </layoutObject>
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" layout.flag="window_position_bottom" showT="true" />
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" layout.space="0" layout.padding="0,0,0,0" layout.flag="window_position_left" showT="true">
+        <elementUI width="100" height="100" left="26" top="203" layout.width="fill" layout.height="fill" showT="true" id="@ID_Window_left_Design">
+            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="top" layout.horizon="false" layout.space="2" layout.padding="0,0,0,0" nameT="设计面板" showT="true">
+                <buttonUI width="60" height="25" content="新建" left="13" top="257" layout.width="fill" showT="true" id="@ID_Window_Left_Btn_NewGame" />
+                <buttonUI width="60" height="25" content="保存" left="361" top="13" id="@ID_Window_Left_Btn_SaveGame" showT="true" layout.width="fill" />
+                <buttonUI width="35" height="35" left="113" top="38" bkInfoM="{5:1(128)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-16776961)13(255);}" bkInfoM_state="128(300*300)" buttonType="radio" buttonStyle="button" id="2" groupID="8" showT="true" imageIcon="@1.png" drawFocus="false" drawBorder="false" />
+                <buttonUI width="35" height="35" left="149" top="21" bkInfoM="{5:1(128)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-16776961)13(255);}" bkInfoM_state="128(300*300)" groupID="8" buttonType="radio" buttonStyle="button" id="3" showT="true" imageIcon="@2.png" drawFocus="false" drawBorder="false" />
+                <buttonUI width="35" height="35" left="202" top="29" groupID="8" buttonType="radio" buttonStyle="button" bkInfoM="{5:1(128)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-16776961)13(255);}" bkInfoM_state="128(300*300)" id="4" showT="true" imageIcon="@3.png" drawFocus="false" drawBorder="false" />
+                <buttonUI width="35" height="35" left="255" top="41" groupID="8" buttonType="radio" buttonStyle="button" bkInfoM="{5:1(128)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-16776961)13(255);}" bkInfoM_state="128(300*300)" id="5" showT="true" imageIcon="@4.png" drawFocus="false" drawBorder="false" />
+                <buttonUI width="35" height="35" left="144" top="-1" groupID="8" buttonType="radio" buttonStyle="button" bkInfoM="{5:1(128)2(15)3(0,0,0,0)10(1)20(0)8(0.00)7(1)11(1)12(-16776961)13(255);}" bkInfoM_state="128(300*300)" id="6" showT="true" imageIcon="@5.png" drawFocus="false" drawBorder="false" />
+                <buttonUI width="35" height="35" left="338" top="24" groupID="8" buttonType="radio" buttonStyle="button" id="1" showT="true" bkInfoM="{5:1(256)2(48)3(33,33,0,0)10(0)20(1)8(0.00)21(1)22(-16777216)23(255);5:1(128)2(48)3(33,33,100,100)10(1)20(1)8(0.00)21(1)22(-16777216)23(255)7(1)11(1)12(-16776961)13(255);}" bkInfoM_state="256(300*300),128(300*300)" check="true" drawFocus="false" drawBorder="false" imageIcon="@0.png" />
+                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="bottom" layout.horizon="false" showT="true">
+                    <buttonUI width="60" height="25" content="游戏模式" left="27" top="376" layout.width="fill" id="@ID_Window_Left_btn_PlayGame" showT="true" />
+                </layoutObject>
+            </layoutObject>
+        </elementUI>
+    </layoutObject>
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="top" layout.horizon="false" layout.space="5" layout.padding="0,0,0,0" layout.flag="window_position_right" showT="true">
+        <elementUI width="100" height="100" left="459" top="294" layout.width="fill" layout.height="fill" showT="true" id="@ID_Window_Right_Play">
+            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" layout.space="2" layout.padding="0,0,0,0" nameT="右边面板" showT="true">
+                <buttonUI width="60" height="25" content="后退" left="403" top="419" id="@ID_Window_Right_BackSpace" showT="true" layout.width="fill" />
+                <shapeText layout.width="auto" layout.height="20" content="当前关数" left="127" top="425" showT="true" />
+                <richEditUI width="100" height="20" left="84" top="421" id="@ID_Window_Right_Edit_CurLevel" showT="true" layout.width="fill" />
+                <shapeText layout.width="auto" layout.height="20" content="总关数" left="229" top="426" id="22" showT="true" />
+                <richEditUI width="100" height="20" left="477" top="201" layout.width="fill" showT="true" id="@ID_Window_Right_Edit_MaxLevel" />
+                <buttonUI width="60" height="25" content="上一关" left="276" top="418" id="@ID_Window_Right_Btn_PrevLevel" showT="true" layout.width="fill" />
+                <buttonUI width="60" height="25" content="下一关" left="334" top="415" id="@ID_Window_Right_Btn_NextLevel" showT="true" layout.width="fill" />
+                <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="bottom" layout.horizon="false" showT="true">
+                    <buttonUI width="60" height="25" content="设计模式" left="22" top="365" layout.width="fill" id="@ID_Window_Right_Btn_Design" showT="true" />
+                </layoutObject>
+            </layoutObject>
+        </elementUI>
+    </layoutObject>
+</windowUI>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" widthT="500" showT="true">
+        <elementUI width="200" height="100" left="101" top="37" layout.height="fill" showT="true" itemID="10" transparent="true" mouseThrough="true" enableFocus="false">
+            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+                <buttonUI itemID="1" width="13" height="13" expandButton="true" buttonType="check" buttonStyle="check" showT="true" />
+                <shapeText layout.width="auto" layout.height="20" content="{binding field=name source=data bSync=false}" left="66" top="29" showT="true" />
+            </layoutObject>
+        </elementUI>
+        <elementUI width="100" height="100" left="176" top="38" layout.height="fill" itemID="11" mouseThrough="true" transparent="true" enableFocus="false" showT="true">
+            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+                <shapeText layout.width="auto" layout.height="20" content="{binding field=name2 source=data bSync=false}" left="62" top="11" showT="true" />
+            </layoutObject>
+        </elementUI>
+        <elementUI width="100" height="100" left="247" top="34" layout.height="fill" layout.width=":1" itemID="12" enableFocus="false" transparent="true" mouseThrough="true" showT="true">
+            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+                <shapeText layout.width="auto" layout.height="20" content="{binding field=name3 source=data bSync=false}" left="24" top="11" showT="true" />
+            </layoutObject>
+        </elementUI>
+    </layoutObject>
+</xc_template_tree>

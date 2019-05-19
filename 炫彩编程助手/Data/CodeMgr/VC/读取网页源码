@@ -1,0 +1,113 @@
+
+#include <windows.h>
+
+#include <WinInet.h>
+#pragma comment(lib,"Wininet.lib")
+
+#include <string>
+#include <shlwapi.h>
+
+#pragma comment(lib,"shlwapi.lib")
+class CNetFile
+{
+public:
+	CNetFile()
+	{
+		m_hOpen = NULL;
+		m_hUrl = NULL;
+	}
+	void Reset()
+	{
+		if (m_hOpen)
+		{
+			CloseHandle(m_hOpen);
+			m_hOpen = NULL;
+		}
+		if (m_hUrl)
+		{
+			CloseHandle(m_hUrl);
+			m_hUrl = NULL;
+		}
+		m_data = "";
+	}
+
+	void* Read(const wchar_t* pUrl)
+	{
+		Reset();
+		
+		m_hOpen = InternetOpenW(L"Mozilla/4.0 (compatible; Indy Library)",INTERNET_OPEN_TYPE_DIRECT,NULL,NULL,NULL);
+		if (m_hOpen == NULL)
+		{
+			return NULL;
+		}
+		m_hUrl  =InternetOpenUrlW(m_hOpen,pUrl,NULL,NULL,INTERNET_FLAG_NO_CACHE_WRITE,NULL);
+		if (m_hUrl == NULL)
+		{
+			wchar_t buffer[4096] = {0};
+			DWORD dwCode = 0;
+			DWORD dwSize = 0;
+			InternetGetLastResponseInfoW(&dwCode,buffer,&dwSize);
+			OutputDebugStringW(buffer);
+			return NULL;
+		}
+
+		char buffer[4096] = {0};
+
+		DWORD dwReadBytes = 0;
+		while (InternetReadFile(m_hUrl,buffer,4096,&dwReadBytes))
+		{
+			if (dwReadBytes == 0)
+			{
+				break;
+			}
+			m_data.append(buffer,buffer+dwReadBytes);
+		}
+
+		return (void*)m_data.data();
+	}
+	const char* GetStr()
+	{
+		return m_data.c_str();
+	}
+	size_t GetSize()
+	{
+		return m_data.size();
+	}
+private:
+	HINTERNET m_hOpen;
+	HINTERNET m_hUrl;
+
+	std::string m_data;
+};
+
+
+
+int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPTSTR lpCmdLine, int nCmdShow)
+{
+
+// 	CNetFile netFile;
+// 	if (netFile.Read(L"http://www.xcgui.com/bbs/forum.php?mod=viewthread&tid=1638&extra=page%3D1") != NULL)
+// 	{
+// 		std::string ver;
+// 		char* flags = "XCGUIHelper{";
+// 		char* pStart = StrStr(netFile.GetStr(),"XCGUIHelper{");
+// 		char* pEnd   = StrStr(pStart,"}");
+// 		ver.append(pStart+strlen(flags),pEnd);
+// 		OutputDebugStringA(ver.c_str());
+// 	}
+
+	CNetFile netFile;
+	if (netFile.Read(L"http://bbs.xcgui.com/forum.php?mod=viewthread&tid=1638&extra=page%3D1") != NULL)
+	{
+		std::string ver;
+		char* flags = "XCGUIHelper{";
+		char* pStart = StrStr(netFile.GetStr(),"XCGUIHelper{");
+		char* pEnd   = StrStr(pStart,"}");
+		ver.append(pStart+strlen(flags),pEnd);
+		OutputDebugStringA(ver.c_str());
+	}
+
+    return 0;
+}
+
+

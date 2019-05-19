@@ -1,0 +1,4 @@
+LIBRARY      "HexEdit"
+DESCRIPTION  'TShare Windows Dynamic Link Library'
+
+EXPORTS

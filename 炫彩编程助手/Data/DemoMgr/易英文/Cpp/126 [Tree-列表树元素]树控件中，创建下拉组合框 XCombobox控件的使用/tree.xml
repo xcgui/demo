@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutObject heightT="30" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="auto" widthT="300" showT="true" expandT="true">
+        <buttonUI buttonType="Check" expandButton="true" height="13" itemID="1" width="13" showT="true" expandT="true" />
+        <shapeText content="{binding field=name}" itemID="2" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        <comboBoxUI height="20" itemID="3" left="224" top="34" width="100" showT="true" expandT="true" />
+    </layoutObject>
+</xc_template_tree>

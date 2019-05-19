@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-资源文件-->
+<resources>
+    <type_image>
+        <image name="KugouSkin_03.png" value=".\image\KugouSkin_03.png" loadType="file" style="default" />
+        <image name="KugouSkin_06.png" value=".\image\KugouSkin_06.png" loadType="file" style="default" />
+        <image name="KugouSkin_10.png" value=".\image\KugouSkin_10.png" loadType="file" style="default" />
+        <image name="KugouSkin_11.png" value=".\image\KugouSkin_11.png" loadType="file" style="default" />
+        <image name="KugouSkin_12.png" value=".\image\KugouSkin_12.png" loadType="file" style="default" />
+        <image name="KugouSkin_14.png" value=".\image\KugouSkin_14.png" loadType="file" style="default" />
+        <image name="KugouSkin_15.png" value=".\image\KugouSkin_15.png" loadType="file" style="default" />
+    </type_image>
+    <type_id />
+    <type_font />
+    <type_string />
+    <type_color />
+</resources>

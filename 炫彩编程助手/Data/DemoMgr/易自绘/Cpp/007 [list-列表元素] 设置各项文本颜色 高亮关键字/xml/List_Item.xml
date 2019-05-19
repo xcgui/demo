@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表元素项模板文件-->
+<xc_template_list showT="true">
+    <listHeader_item showT="true" expandT="true">
+        <layoutObject layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="5,2,2,2" layout.space="6" layout.width="fill" showT="true" expandT="true">
+            <shapeText content="{binding field=name}" itemID="2" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        </layoutObject>
+        <layoutObject layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="5,2,2,2" layout.space="6" layout.width="fill" showT="true" expandT="true">
+            <shapeText content="{binding field=name2 source=data bSync=false}" itemID="2" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        </layoutObject>
+        <layoutObject layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="5,2,2,2" layout.space="6" layout.width="fill" showT="true" expandT="true">
+            <shapeText content="{binding field=name3 source=data bSync=false}" itemID="3" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        </layoutObject>
+    </listHeader_item>
+    <list_Item showT="true" expandT="true">
+        <layoutObject layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="6" layout.width="fill" showT="true" expandT="true" />
+        <layoutObject layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="fill" showT="true" expandT="true" />
+        <layoutObject layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="fill" showT="true" expandT="true">
+            <shapeText content="{binding field=name3 source=data bSync=false}" itemID="3" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        </layoutObject>
+    </list_Item>
+</xc_template_list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表框元素项模板文件-->
+<xc_template_listBox>
+    <layoutObject type="item" layout.horizon="true" layout.alignH="left" layout.alignV="bottom" layout.width="auto" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" widthT="0" heightT="0" showT="true">
+        <buttonUI itemID="1" width="120" height="20" content="{binding field=name source=data bSync=false}" buttonType="check" showT="true" />
+        <shapeText left="189" top="87" layout.width="auto" layout.height="20" content="{binding field=name1 source=data bSync=false}" itemID="2" showT="true" />
+    </layoutObject>
+</xc_template_listBox>

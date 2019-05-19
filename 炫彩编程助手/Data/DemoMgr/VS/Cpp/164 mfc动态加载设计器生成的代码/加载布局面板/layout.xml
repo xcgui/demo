@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-布局文件-->
+<windowUI left="0" top="0" width="300" height="200" content="炫彩界面库 - 我的窗口名" layoutLeft="8" layoutTop="30" layoutRight="8" layoutBottom="8" />

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-资源文件-->
+<resources>
+    <type_image>
+        <folder name="新建分类">
+            <image name="Shadow.png" value=".\image\frame\Shadow.png" loadType="file" style="image9" rect9="5,3,5,7" />
+            <image name="theme.png" value=".\image\frame\theme.png" loadType="file" style="stretch" />
+            <image name="logo.png" value=".\image\frame\logo.png" loadType="file" style="default" />
+        </folder>
+        <folder name="新建分类">
+            <image name="Close_01.png" value=".\image\sysbtn\images\Close_01.png" loadType="file" style="default" />
+            <image name="Close_02.png" value=".\image\sysbtn\images\Close_02.png" loadType="file" style="default" />
+            <image name="Close_03.png" value=".\image\sysbtn\images\Close_03.png" loadType="file" style="default" />
+            <image name="Close_04.png" value=".\image\sysbtn\images\Close_04.png" loadType="file" style="default" />
+            <image name="Max_01.png" value=".\image\sysbtn\images\Max_01.png" loadType="file" style="default" />
+            <image name="Max_02.png" value=".\image\sysbtn\images\Max_02.png" loadType="file" style="default" />
+            <image name="Max_03.png" value=".\image\sysbtn\images\Max_03.png" loadType="file" style="default" />
+            <image name="Max_04.png" value=".\image\sysbtn\images\Max_04.png" loadType="file" style="default" />
+            <image name="Menu_01.png" value=".\image\sysbtn\images\Menu_01.png" loadType="file" style="default" />
+            <image name="Menu_02.png" value=".\image\sysbtn\images\Menu_02.png" loadType="file" style="default" />
+            <image name="Menu_03.png" value=".\image\sysbtn\images\Menu_03.png" loadType="file" style="default" />
+            <image name="Menu_04.png" value=".\image\sysbtn\images\Menu_04.png" loadType="file" style="default" />
+            <image name="Min_01.png" value=".\image\sysbtn\images\Min_01.png" loadType="file" style="default" />
+            <image name="Min_02.png" value=".\image\sysbtn\images\Min_02.png" loadType="file" style="default" />
+            <image name="Min_03.png" value=".\image\sysbtn\images\Min_03.png" loadType="file" style="default" />
+            <image name="Min_04.png" value=".\image\sysbtn\images\Min_04.png" loadType="file" style="default" />
+            <image name="Restore_01.png" value=".\image\sysbtn\images\Restore_01.png" loadType="file" style="default" />
+            <image name="Restore_02.png" value=".\image\sysbtn\images\Restore_02.png" loadType="file" style="default" />
+            <image name="Restore_03.png" value=".\image\sysbtn\images\Restore_03.png" loadType="file" style="default" />
+            <image name="Restore_04.png" value=".\image\sysbtn\images\Restore_04.png" loadType="file" style="default" />
+            <image name="Skin_01.png" value=".\image\sysbtn\images\Skin_01.png" loadType="file" style="default" />
+            <image name="Skin_02.png" value=".\image\sysbtn\images\Skin_02.png" loadType="file" style="default" />
+            <image name="Skin_03.png" value=".\image\sysbtn\images\Skin_03.png" loadType="file" style="default" />
+            <image name="Skin_04.png" value=".\image\sysbtn\images\Skin_04.png" loadType="file" style="default" />
+        </folder>
+        <folder name="新建分类">
+            <image name="MainTabImage1.png" value=".\image\toolbar\MainTabImage1.png" loadType="file" style="default" />
+            <image name="MainTabImage2.png" value=".\image\toolbar\MainTabImage2.png" loadType="file" style="default" />
+            <image name="MainTabImage3.png" value=".\image\toolbar\MainTabImage3.png" loadType="file" style="default" />
+            <image name="MainTabImage4.png" value=".\image\toolbar\MainTabImage4.png" loadType="file" style="default" />
+            <image name="MainTabImage5.png" value=".\image\toolbar\MainTabImage5.png" loadType="file" style="default" />
+            <image name="MainTabImage6.png" value=".\image\toolbar\MainTabImage6.png" loadType="file" style="default" />
+            <image name="MainTabImage7.png" value=".\image\toolbar\MainTabImage7.png" loadType="file" style="default" />
+            <image name="MainTabImage8.png" value=".\image\toolbar\MainTabImage8.png" loadType="file" style="default" />
+            <image name="MainTabButton_01.png" value=".\image\toolbar\images\MainTabButton_01.png" loadType="file" style="default" />
+            <image name="MainTabButton_02.png" value=".\image\toolbar\images\MainTabButton_02.png" loadType="file" style="default" />
+            <image name="MainTabButton_03.png" value=".\image\toolbar\images\MainTabButton_03.png" loadType="file" style="default" />
+        </folder>
+        <folder name="新建分类">
+            <image name="Computer.png" value=".\image\page1\1\leftPane\Computer.png" loadType="file" style="default" />
+            <image name="StartExamine_01.png" value=".\image\page1\1\leftPane\images\StartExamine_01.png" loadType="file" style="default" />
+            <image name="StartExamine_02.png" value=".\image\page1\1\leftPane\images\StartExamine_02.png" loadType="file" style="default" />
+            <image name="StartExamine_03.png" value=".\image\page1\1\leftPane\images\StartExamine_03.png" loadType="file" style="default" />
+            <image name="StartExamine_04.png" value=".\image\page1\1\leftPane\images\StartExamine_04.png" loadType="file" style="default" />
+            <image name="Login_01.png" value=".\image\page1\1\leftPane\images\Login_01.png" loadType="file" style="default" />
+            <image name="Login_02.png" value=".\image\page1\1\leftPane\images\Login_02.png" loadType="file" style="default" />
+            <image name="Login_03.png" value=".\image\page1\1\leftPane\images\Login_03.png" loadType="file" style="default" />
+            <image name="Icon1.png" value=".\image\page1\1\leftPane\Icon1.png" loadType="file" style="default" />
+            <image name="Icon2.png" value=".\image\page1\1\leftPane\Icon2.png" loadType="file" style="default" />
+            <image name="Icon3.png" value=".\image\page1\1\leftPane\Icon3.png" loadType="file" style="default" />
+            <image name="Icon4.png" value=".\image\page1\1\leftPane\Icon4.png" loadType="file" style="default" />
+            <image name="Icon5.png" value=".\image\page1\1\leftPane\Icon5.png" loadType="file" style="default" />
+            <image name="Icon6.png" value=".\image\page1\1\leftPane\Icon6.png" loadType="file" style="default" />
+            <image name="Icon7.png" value=".\image\page1\1\leftPane\Icon7.png" loadType="file" style="default" />
+            <image name="Icon8.png" value=".\image\page1\1\leftPane\Icon8.png" loadType="file" style="default" />
+            <image name="GuardOpen_01.png" value=".\image\page1\1\leftPane\images\GuardOpen_01.png" loadType="file" style="default" />
+            <image name="GuardOpen_02.png" value=".\image\page1\1\leftPane\images\GuardOpen_02.png" loadType="file" style="default" />
+            <image name="GuardOpen_03.png" value=".\image\page1\1\leftPane\images\GuardOpen_03.png" loadType="file" style="default" />
+            <image name="PayinsureClose_01.png" value=".\image\page1\1\leftPane\images\PayinsureClose_01.png" loadType="file" style="default" />
+            <image name="PayinsureClose_02.png" value=".\image\page1\1\leftPane\images\PayinsureClose_02.png" loadType="file" style="default" />
+            <image name="PayinsureClose_03.png" value=".\image\page1\1\leftPane\images\PayinsureClose_03.png" loadType="file" style="default" />
+            <image name="AppBkg_01.png" value=".\image\page1\1\leftPane\images\AppBkg_01.png" loadType="file" style="default" />
+            <image name="AppBkg_02.png" value=".\image\page1\1\leftPane\images\AppBkg_02.png" loadType="file" style="default" />
+            <image name="AppBkg_03.png" value=".\image\page1\1\leftPane\images\AppBkg_03.png" loadType="file" style="default" />
+            <image name="AppImage4.png" value=".\image\page1\1\leftPane\AppImage4.png" loadType="file" style="default" />
+            <image name="AppImage5.png" value=".\image\page1\1\leftPane\AppImage5.png" loadType="file" style="default" />
+            <image name="AppImage6.png" value=".\image\page1\1\leftPane\AppImage6.png" loadType="file" style="default" />
+            <image name="AppImage7.png" value=".\image\page1\1\leftPane\AppImage7.png" loadType="file" style="default" />
+            <image name="AppImage8.png" value=".\image\page1\1\leftPane\AppImage8.png" loadType="file" style="default" />
+            <image name="AppImage9.png" value=".\image\page1\1\leftPane\AppImage9.png" loadType="file" style="default" />
+            <image name="AppImage1.png" value=".\image\page1\1\leftPane\AppImage1.png" loadType="file" style="default" />
+            <image name="AppImage2.png" value=".\image\page1\1\leftPane\AppImage2.png" loadType="file" style="default" />
+            <image name="AppImage3.png" value=".\image\page1\1\leftPane\AppImage3.png" loadType="file" style="default" />
+            <image name="Success.png" value=".\image\page1\1\leftPane\Success.png" loadType="file" style="default" />
+            <image name="Update_04.png" value=".\image\page1\1\leftPane\images\Update_04.png" loadType="file" style="default" />
+            <image name="Update_01.png" value=".\image\page1\1\leftPane\images\Update_01.png" loadType="file" style="default" />
+            <image name="Update_02.png" value=".\image\page1\1\leftPane\images\Update_02.png" loadType="file" style="default" />
+            <image name="Update_03.png" value=".\image\page1\1\leftPane\images\Update_03.png" loadType="file" style="default" />
+            <image name="AppNew.png" value=".\image\page1\1\leftPane\AppNew.png" loadType="file" style="default" />
+        </folder>
+        <folder name="新建分类">
+            <image name="ProgNow.png" value=".\image\page1\2\ProgNow.png" loadType="file" style="default" />
+            <image name="ProgPastRisk.png" value=".\image\page1\2\ProgPastRisk.png" loadType="file" style="default" />
+            <image name="ProgPastSafe.png" value=".\image\page1\2\ProgPastSafe.png" loadType="file" style="default" />
+            <image name="ProgPastUnknow.png" value=".\image\page1\2\ProgPastUnknow.png" loadType="file" style="default" />
+            <image name="progress.png" value=".\image\page1\2\progress.png" loadType="file" style="image9" rect9="2,0,2,0" />
+            <image name="progressbkg.png" value=".\image\page1\2\progressbkg.png" loadType="file" style="image9" rect9="2,0,3,0" />
+            <image name="2nd_Icon.png" value=".\image\page1\2\2nd_Icon.png" loadType="file" style="default" />
+            <image name="2nd_Tail_Icon.png" value=".\image\page1\2\2nd_Tail_Icon.png" loadType="file" style="default" />
+            <image name="ItemOkIcon.png" value=".\image\page1\2\ItemOkIcon.png" loadType="file" style="default" />
+            <image name="animRed.png" value=".\image\page1\2\animRed.png" loadType="file" style="default" />
+            <image name="animYellow.png" value=".\image\page1\2\animYellow.png" loadType="file" style="default" />
+            <image name="bkgGreen.png" value=".\image\page1\2\bkgGreen.png" loadType="file" style="default" />
+            <image name="bkgRed.png" value=".\image\page1\2\bkgRed.png" loadType="file" style="default" />
+            <image name="bkgYellow.png" value=".\image\page1\2\bkgYellow.png" loadType="file" style="default" />
+            <image name="GrayGreen.png" value=".\image\page1\2\GrayGreen.png" loadType="file" style="default" />
+            <image name="GrayRed.png" value=".\image\page1\2\GrayRed.png" loadType="file" style="default" />
+            <image name="GrayYellow.png" value=".\image\page1\2\GrayYellow.png" loadType="file" style="default" />
+            <image name="scoresBlue.png" value=".\image\page1\2\scoresBlue.png" loadType="file" style="default" />
+            <image name="scoresGray.png" value=".\image\page1\2\scoresGray.png" loadType="file" style="default" />
+            <image name="scoresGreen.png" value=".\image\page1\2\scoresGreen.png" loadType="file" style="default" />
+            <image name="scoresRed.png" value=".\image\page1\2\scoresRed.png" loadType="file" style="default" />
+            <image name="scoresYellow.png" value=".\image\page1\2\scoresYellow.png" loadType="file" style="default" />
+            <image name="animGreen.png" value=".\image\page1\2\animGreen.png" loadType="file" style="default" />
+            <image name="num1_08.png" value=".\image\page1\2\images\num1_08.png" loadType="file" style="default" />
+            <image name="num1_09.png" value=".\image\page1\2\images\num1_09.png" loadType="file" style="default" />
+            <image name="num1_10.png" value=".\image\page1\2\images\num1_10.png" loadType="file" style="default" />
+            <image name="num1_01.png" value=".\image\page1\2\images\num1_01.png" loadType="file" style="default" />
+            <image name="num1_02.png" value=".\image\page1\2\images\num1_02.png" loadType="file" style="default" />
+            <image name="num1_03.png" value=".\image\page1\2\images\num1_03.png" loadType="file" style="default" />
+            <image name="num1_04.png" value=".\image\page1\2\images\num1_04.png" loadType="file" style="default" />
+            <image name="num1_05.png" value=".\image\page1\2\images\num1_05.png" loadType="file" style="default" />
+            <image name="num1_06.png" value=".\image\page1\2\images\num1_06.png" loadType="file" style="default" />
+            <image name="num1_07.png" value=".\image\page1\2\images\num1_07.png" loadType="file" style="default" />
+            <image name="fen1.png" value=".\image\page1\2\fen1.png" loadType="file" style="default" />
+            <image name="safeitem_fine.png" value=".\image\page1\2\safeitem_fine.png" loadType="file" style="default" />
+            <image name="Fault_fine.png" value=".\image\page1\2\Fault_fine.png" loadType="file" style="default" />
+            <image name="item_close_btn_02.png" value=".\image\page1\2\images\item_close_btn_02.png" loadType="file" style="default" />
+            <image name="item_close_btn_03.png" value=".\image\page1\2\images\item_close_btn_03.png" loadType="file" style="default" />
+            <image name="item_close_btn_04.png" value=".\image\page1\2\images\item_close_btn_04.png" loadType="file" style="default" />
+            <image name="item_open_btn_01.png" value=".\image\page1\2\images\item_open_btn_01.png" loadType="file" style="default" />
+            <image name="item_open_btn_02.png" value=".\image\page1\2\images\item_open_btn_02.png" loadType="file" style="default" />
+            <image name="item_open_btn_03.png" value=".\image\page1\2\images\item_open_btn_03.png" loadType="file" style="default" />
+            <image name="item_open_btn_04.png" value=".\image\page1\2\images\item_open_btn_04.png" loadType="file" style="default" />
+            <image name="item_close_btn_01.png" value=".\image\page1\2\images\item_close_btn_01.png" loadType="file" style="default" />
+        </folder>
+    </type_image>
+    <type_id>
+        <id name="ID_ListView_app" value="901" />
+        <id name="ID_Tree_tijian" value="900" />
+        <id name="ID_btn_hide_Pane2" value="152" />
+        <id name="ID_btn_show_pane2" value="153" />
+        <id name="ID_page1" value="100" />
+        <id name="ID_page1_pane1" value="101" />
+        <id name="ID_page1_pane1_left1" value="102" />
+        <id name="ID_page1_pane1_left2" value="120" />
+        <id name="ID_page1_pane2" value="151" />
+        <id name="ID_page2" value="200" />
+        <id name="ID_page3" value="300" />
+        <id name="ID_page4" value="400" />
+        <id name="ID_page5" value="500" />
+        <id name="ID_page6" value="600" />
+        <id name="ID_page7" value="700" />
+        <id name="ID_page8" value="800" />
+        <id name="ID_progbar_scan" value="154" />
+    </type_id>
+    <type_font>
+        <font name="ID_FONT_0" value="微软雅黑" size="10" style="bold" />
+        <font name="ID_FONT_1" value="宋体" size="13" />
+        <font name="ID_FONT_page1_title1" value="微软雅黑" size="13" style="bold" />
+        <font name="ID_FONT_page1_title2" value="微软雅黑" size="10" />
+        <font name="ID_FONT_tbar" value="微软雅黑" size="9" style="bold" />
+        <font name="ID_FONT_title" value="微软雅黑" size="10" />
+    </type_font>
+    <type_string />
+    <type_color />
+</resources>

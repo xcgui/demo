@@ -1,0 +1,39 @@
+	FILE* pf = fopen("Abduction2000.TTF","r+b");
+	fseek(pf,0,SEEK_END);
+	long nsize = ftell(pf);
+	fseek(pf,0,SEEK_SET);
+
+	void* buffer = malloc(nsize+1);
+	ZeroMemory(buffer,nsize);
+	size_t nRead = fread(buffer,1,nsize,pf);
+	fclose(pf);
+
+	
+	DWORD dwInsCount = 0;
+	HANDLE hFontFile = AddFontMemResourceEx(buffer,nsize,0,&dwInsCount);
+
+	if (dwInsCount)
+	{
+		LOGFONTW logfont={0};
+		
+//		logfont.lfHeight = -MulDiv(24, GetDeviceCaps(hdc,LOGPIXELSY), 72);
+		logfont.lfHeight = 48;
+		logfont.lfWeight = FW_NORMAL;
+
+//		GetObjectW(GetStockObject(SYSTEM_FONT),sizeof(LOGFONT),&logfont);  
+//		logfont.lfItalic=true;//使用斜体  
+// 		logfont.lfHeight=16;//字体高度为16PX
+//		logfont.lfWidth =36;
+// 		logfont.lfWeight=20;//字体宽度为20PX  
+//		logfont.lfCharSet=GB2312_CHARSET;//国标2312  
+		wsprintfW(logfont.lfFaceName,L"%s",L"Abduction2000");  
+		HFONT hfont=CreateFontIndirectW(&logfont);//字体为宋体  
+		
+		HGDIOBJ hObject = ::SelectObject(hdc,hfont);
+		TextOutW(hdc,10,25,L"abcd",4);
+		
+		RemoveFontMemResourceEx(hFontFile);
+		free(buffer);
+	}
+
+

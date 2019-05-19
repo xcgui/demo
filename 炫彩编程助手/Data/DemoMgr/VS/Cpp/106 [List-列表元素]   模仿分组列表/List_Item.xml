@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-列表元素项模板文件-->
+<xc_template_list showT="true">
+    <listHeader_item showT="true">
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="1" layout.width="auto" layout.height="fill" content="ID" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="1" layout.width="auto" layout.height="fill" content="name" showT="true" />
+        </layoutObject>
+    </listHeader_item>
+    <list_Item showT="true">
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="0,0,0,0" showT="true">
+            <elementUI left="105" top="118" width="100" height="100" layout.width="fill" layout.height="fill" itemID="1" drawFocus="false" mouseThrough="true" transparent="true" showT="false">
+                <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="false">
+                    <shapeText layout.width="auto" layout.height="fill" content="{binding field=name1 source=data bSync=false}" showT="true" />
+                </layoutObject>
+            </elementUI>
+            <elementUI left="89" top="109" width="100" height="100" layout.width="fill" layout.height="fill" drawFocus="false" transparent="true" mouseThrough="true" itemID="2" showT="true">
+                <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="0,0,0,0" showT="true">
+                    <buttonUI left="48" top="12" width="60" height="25" content="Button" layout.width="fill" layout.height="fill" itemID="4" buttonType="check" drawFocus="false" transparent="true" showT="true" />
+                </layoutObject>
+            </elementUI>
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="0,0,0,0" showT="true">
+            <elementUI left="92" top="141" width="100" height="100" layout.width="fill" layout.height="fill" itemID="3" drawFocus="false" transparent="true" mouseThrough="true" showT="true">
+                <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="0,0,0,0" showT="true">
+                    <shapeText layout.width="auto" layout.height="fill" content="{binding field=name2 source=data bSync=false}" showT="true" />
+                </layoutObject>
+            </elementUI>
+        </layoutObject>
+    </list_Item>
+</xc_template_list>

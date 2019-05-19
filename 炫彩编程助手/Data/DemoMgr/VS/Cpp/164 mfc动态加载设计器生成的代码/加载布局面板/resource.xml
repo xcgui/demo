@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-资源文件-->
+<resources>
+    <type_image />
+    <type_id>
+        <id name="ID_Btn1" value="10" />
+    </type_id>
+    <type_font />
+    <type_string />
+    <type_color />
+</resources>

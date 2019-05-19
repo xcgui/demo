@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表框元素项模板文件-->
+<xc_template_listBox>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="top" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+        <shapeText itemID="3" layout.width="fill" layout.height="fill" content="{binding field=name source=data bSync=false}" showT="true" />
+    </layoutObject>
+</xc_template_listBox>

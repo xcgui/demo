@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutEleUI drawBorder="false" enableCanvas="false" heightT="50" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="5,2,2,2" layout.space="6" layout.width="fill" mouseThrough="true" showT="true" widthT="300" expandT="true">
+        <elementUI bkInfoM="{3:1(16)2(15)3(0,0,0,0)4({binding field=userPic source=data bSync=false})8(0.00);}" bkInfoM_state="16(300*300)" height="22" itemID="3" showT="true" width="22" expandT="true" />
+        <shapeText content="{binding field=name source=data bSync=false}" itemID="2" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="right" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="0,0,20,0" layout.width=":1" mouseThrough="true" showT="true" expandT="true">
+            <buttonUI bkInfoM="{6:1(1)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(1)22(-16382209)23(255);}" bkInfoM_state="1(300*300)" content="{binding field=msgCount source=data bSync=false}" enableFocus="false" height="20" itemID="6" left="43" offsetX="-1" offsetY="-1" showT="true" textAlign="DT_CENTER | DT_VCENTER | DT_SINGLELINE" textColor="#FFFFFBFB" top="34" transparent="true" width="20" expandT="true" />
+        </layoutEleUI>
+    </layoutEleUI>
+</xc_template_tree>

@@ -1,0 +1,16 @@
+.版本 2
+
+.子程序 矩形图片
+.参数 hDc, 整数型
+.局部变量 hRgn, 整数型
+.局部变量 hBmpBrush, 整数型
+.局部变量 hImage, 整数型
+.局部变量 hIns, 整数型
+
+hRgn ＝ CreateEllipticRgn (10, 200, 110, 300)
+hIns ＝ GetModuleHandle (0)
+hImage ＝ LoadImage (0, 取运行目录 () ＋ “\1.bmp”, #IMAGE_BITMAP, 0, 0, #LR_LOADFROMFILE)
+
+输出调试文本 (GetLastError (), 取运行目录 () ＋ “\1.bmp”)
+hBmpBrush ＝ CreatePatternBrush (hImage)
+FillRgn (hDc, hRgn, hBmpBrush)

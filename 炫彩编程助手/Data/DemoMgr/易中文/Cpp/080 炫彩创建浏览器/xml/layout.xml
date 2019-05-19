@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="20" top="-20" width="612" height="455" content="炫彩界面库 - 我的窗口名" layoutLeft="1" layoutTop="30" layoutRight="1" layoutBottom="20" showT="true" center="true">
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" layout.flag="window_position_top" showT="true">
+        <richEditUI left="2" top="2" width="477" height="25" id="10" showT="true" />
+        <menuBarUI left="520" top="2" width="50" height="24" id="11" showT="true" />
+    </layoutObject>
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" layout.flag="window_position_bottom" showT="true">
+        <shapeText left="2" top="410" layout.width="auto" layout.height="20" content="加载状态" width="225" height="20" id="20" showT="true" />
+        <shapeText left="185" top="417" layout.width="auto" layout.height="20" content="TextBlock" id="21" showT="true" />
+    </layoutObject>
+</windowUI>

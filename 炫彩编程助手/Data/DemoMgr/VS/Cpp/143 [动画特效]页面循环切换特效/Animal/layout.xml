@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="20" top="20" width="451" height="383" content="炫彩界面库 - 我的窗口名" layoutLeft="1" layoutTop="30" layoutRight="1" layoutBottom="1" showT="true">
+    <elementUI left="13" top="45" width="400" height="300" id="200" showT="true" bkInfoM="{5:1(1)2(15)3(0,0,0,0)10(1)20(1)8(0.00)21(1)22(-65536)23(255)7(1)11(1)12(-16776961)13(255);}" bkInfoM_state="1(300*300)" />
+    <elementUI width="400" height="300" left="42" top="70" id="201" bkInfoM="{5:1(1)2(15)3(0,0,0,0)10(1)20(1)8(0.00)21(1)22(-13451827)23(255)7(1)11(1)12(-16776961)13(255);}" bkInfoM_state="1(300*300)" showT="true" />
+    <elementUI width="400" height="300" left="0" top="30" id="202" bkInfoM="{5:1(1)2(15)3(0,0,0,0)10(1)20(1)8(0.00)21(1)22(-5158729)23(255)7(1)11(1)12(-16776961)13(255);}" bkInfoM_state="1(300*300)" showT="false" />
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="0,0,0,0" layout.flag="XC_LAYOUT_TOP" showT="true">
+        <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+            <buttonUI width="60" height="25" content="第一页" left="86" top="38" id="100" showT="true" />
+            <buttonUI width="60" height="25" content="第二页" left="166" top="37" id="101" showT="true" />
+            <buttonUI width="60" height="25" content="第三页" left="234" top="37" id="102" showT="true" />
+        </layoutObject>
+        <layoutObject layout.width="100" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" layout.padding="0,5,5,0" showT="true">
+            <buttonUI left="400" top="23" width="60" height="25" content="关闭" drawFocus="false" transparent="true" expandButton="false" buttonType="close" showT="true" />
+        </layoutObject>
+    </layoutObject>
+</windowUI>

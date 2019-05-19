@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="2,2,2,2" showT="true">
+        <shapeText itemID="2" layout.width="auto" layout.height="fill" content="{binding field=name1 source=data bSync=false}" showT="true" />
+        <elementUI left="79" top="-14" width="30" height="30" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4({binding field=name7 source=data bSync=false})8(0.00);}" bkInfoM_state="16(300*300)" showT="true" enableFocus="false" transparent="true" />
+    </layoutObject>
+</xc_template_tree>

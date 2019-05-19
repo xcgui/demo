@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-列表元素项模板文件-->
+<xc_template_list showT="true">
+    <listHeader_item showT="true">
+        <layoutObject widthT="300" heightT="30" layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText itemID="0" layout.width="auto" layout.height="fill" content="{binding field=name1 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject widthT="300" heightT="30" layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText itemID="0" layout.width="auto" layout.height="fill" content="{binding field=name2 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject widthT="300" heightT="30" layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="77" top="107" layout.width="auto" layout.height="20" content="{binding field=name3 source=data bSync=false}" showT="true" />
+        </layoutObject>
+    </listHeader_item>
+    <list_Item showT="true">
+        <layoutObject widthT="300" heightT="30" layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <buttonUI left="64" top="152" width="25" height="25" itemID="1" buttonType="check" transparent="true" drawFocus="false" showT="true" />
+        </layoutObject>
+        <layoutObject widthT="300" heightT="30" layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="105" top="184" layout.width="auto" layout.height="20" content="{binding field=name1 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject widthT="300" heightT="30" layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="135" top="222" layout.width="auto" layout.height="20" content="{binding field=name2 source=data bSync=false}" showT="true" />
+        </layoutObject>
+    </list_Item>
+</xc_template_list>

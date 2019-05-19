@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="20" top="20" width="456" height="293" content="炫彩界面库 - 蜗牛进度条" layoutLeft="0" layoutTop="30" layoutRight="0" layoutBottom="0" bkInfoM="{1:1(1)2(15)3(0,0,0,0)5(-1316130)6(255);2:1(1)2(15)3(0,0,0,0)5(-6381922)6(255)7(1);}" bkInfoM_state="1(300*300)" dragWindow="true" center="true" showT="true" dragBorder="false" drawBk="false">
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="top" layout.horizon="false" layout.space="30" layout.padding="2,50,2,2" layout.flag="window_position_body" showT="true">
+        <shapeText left="238" top="107" layout.width="auto" layout.height="20" content="蜗牛滑块条" textColor="#FF565656" showT="true" />
+        <sliderBarUI left="248" top="211" width="303" height="69" imageLoad="@pb.png" enableFocus="false" transparent="true" bkInfoM="{3:1(16)2(15)3(0,0,0,0)4(@bk.png);}" bkInfoM_state="16(300*300)" id="100" showT="true" />
+    </layoutObject>
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="right" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="4,4,4,2" layout.flag="window_position_top" showT="true">
+        <buttonUI left="419" top="8" width="24" height="24" enableFocus="false" transparent="true" imageIcon="@closeIcon.png" bkInfoM="{1:1(32)2(15)3(0,0,0,0)5(16777215)6(255);1:1(64)2(15)3(0,0,0,0)5(16777215)6(155);}" bkInfoM_state="32(300*300),64(300*300)" buttonType="close" showT="true" />
+    </layoutObject>
+</windowUI>

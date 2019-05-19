@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表元素项模板文件-->
+<xc_template_list showT="true">
+    <listHeader_item showT="true">
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="1" layout.width="auto" layout.height="fill" content="{binding field=name source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="2" layout.width="auto" layout.height="fill" content="{binding field=name2 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="3" layout.width="auto" layout.height="fill" content="{binding field=name3 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="4" layout.width="auto" layout.height="fill" content="{binding field=name4 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="5" layout.width="auto" layout.height="fill" content="{binding field=name5 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="6" layout.width="auto" layout.height="fill" content="{binding field=name6 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="7" layout.width="auto" layout.height="fill" content="{binding field=name7 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="8" layout.width="auto" layout.height="fill" content="{binding field=name8 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="9" layout.width="auto" layout.height="fill" content="{binding field=name9 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="10" layout.width="auto" layout.height="fill" content="{binding field=name10 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="11" layout.width="auto" layout.height="fill" content="{binding field=name11 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="12" layout.width="auto" layout.height="fill" content="{binding field=name12 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="13" layout.width="auto" layout.height="fill" content="{binding field=name13 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="14" layout.width="auto" layout.height="fill" content="{binding field=name14 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="15" layout.width="auto" layout.height="fill" content="{binding field=name15 source=data bSync=false}" showT="true" />
+        </layoutObject>
+    </listHeader_item>
+    <list_Item showT="true">
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="2,2,2,2" widthT="0" heightT="0" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name source=data bSync=false}" width="69" height="21" itemID="0" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name2 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name3 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name4 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+         <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name5 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+         <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name6 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+         <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name7 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name8 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name9 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name10 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name11 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name12 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name13 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name14 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name15 source=data bSync=false}" width="69" height="21" showT="true" />
+        </layoutObject>
+    </list_Item>
+</xc_template_list>

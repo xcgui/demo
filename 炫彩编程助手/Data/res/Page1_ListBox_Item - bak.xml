@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表框元素项模板文件-->
+<xc_template_listBox>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="top" layout.width="auto" layout.height="fill" layout.space="2" layout.padding="0,0,0,0" showT="true" widthT="450" heightT="55">
+        <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true" layout.padding="0,0,0,0">
+            <layoutObject layout.width="fill" layout.height="28" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.padding="5,0,0,0" showT="true">
+                <shapeText itemID="1" layout.width="auto" layout.height="fill" content="{binding field=name source=data bSync=false}" showT="true" textColor="#FF555555" font="@ID_FONT_2" />
+            </layoutObject>
+            <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="bottom" layout.horizon="true" layout.space="2" layout.padding="5,0,5,0" showT="true">
+                <shapeText left="73" top="56" layout.width="auto" layout.height="fill" content="难度:  " showT="true" textColor="#FF969696" />
+                <shapePicture left="147" top="64" width="70" height="19" image="@star0.5.png" itemID="6" showT="true" layout.height="fill" />
+                <shapeText layout.width="auto" layout.height="fill" content="作者:" left="241" top="50" textColor="#FFD0D0D0" showT="true" />
+                <shapeText layout.width="auto" layout.height="fill" content="XCGUI" left="165" top="53" itemID="7" textColor="#FFD0D0D0" showT="true" />
+                <layoutObject layout.width=":1" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" layout.space="10" showT="true">
+                    <elementUI width="100" height="100" left="225" top="59" layout.width="fill" layout.height="fill" enableFocus="false" transparent="true" itemID="12" show="false" showT="true">
+                        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="0,0,0,0" showT="true">
+                            <buttonUI left="252" top="33" width="45" height="35" content="预览" itemID="4" showT="true" drawFocus="false" transparent="true" bkInfoM="{5:1(64)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(3,90.00,-4144960,0,-4144960,100,255,50);4:1(32)2(14)3(5,0,0,0)10(0)20(1)8(0.00)21(1)22(-986896)23(255);4:1(32)2(11)3(0,0,5,0)10(0)20(1)8(179.00)21(1)22(-986896)23(255);}" bkInfoM_state="32(300*300),64(300*300)" textColor="#FFA0A0A0" layout.height="fill" />
+                            <buttonUI left="252" top="33" width="75" height="35" content="查看源码" itemID="2" showT="true" drawFocus="false" transparent="true" bkInfoM="{5:1(32)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(2,90.00,180404416,0,-926891840,100);5:1(64)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(3,90.00,-4144960,0,-4144960,100,255,50);}" bkInfoM_state="32(300*300),64(300*300)" textColor="#FFA0A0A0" layout.height="fill" />
+                            <buttonUI left="252" top="33" width="75" height="35" content="生成代码" itemID="3" showT="true" drawFocus="false" transparent="true" bkInfoM="{5:1(32)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(2,90.00,180404416,0,-926891840,100);5:1(64)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(3,90.00,-4144960,0,-4144960,100,255,50);4:1(16)2(14)3(5,0,0,0)10(0)20(1)8(0.00)21(1)22(-986896)23(255);4:1(16)2(11)3(0,0,5,0)10(0)20(1)8(179.00)21(1)22(-986896)23(255);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" textColor="#FFA0A0A0" layout.height="fill" />
+                        </layoutObject>
+                    </elementUI>
+                </layoutObject>
+            </layoutObject>
+        </layoutObject>
+        <layoutObject layout.width="5" layout.height="fill" layout.alignH="right" layout.alignV="center" layout.horizon="true" layout.space="10" layout.padding="0,0,5,0" showT="true" />
+    </layoutObject>
+</xc_template_listBox>

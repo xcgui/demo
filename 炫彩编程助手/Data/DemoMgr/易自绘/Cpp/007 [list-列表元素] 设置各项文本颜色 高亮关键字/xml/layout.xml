@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI content="炫彩界面库 - 我的窗口名" height="412" layoutBottom="0" layoutLeft="0" layoutRight="0" layoutTop="30" left="20" shadowDepth="255" shadowSize="10" showT="true" top="20" transparentAlpha="255" width="580">
+    <layoutObject layout.alignH="left" layout.alignV="top" layout.flag="window_position_top" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="fill" showT="true" expandT="true">
+        <layoutObject layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.width=":1" showT="true" expandT="true">
+            <richEditUI height="20" id="10" layout.width=":1" left="150" showT="true" top="13" width="100" expandT="true" />
+            <buttonUI content="开始监控" height="25" id="11" left="331" showT="true" top="15" width="60" expandT="true" />
+        </layoutObject>
+        <layoutObject layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.width="100" showT="true" expandT="true">
+            <buttonUI buttonType="close" content="关闭" height="25" left="478" showT="true" top="2" width="39" expandT="true" />
+        </layoutObject>
+    </layoutObject>
+    <layoutObject layout.alignH="left" layout.alignV="top" layout.flag="window_position_body" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="fill" showT="true" expandT="true">
+        <listUI height="378" id="20" layout.height="fill" layout.width="fill" left="4" showT="true" top="33" width="576" expandT="true" />
+    </layoutObject>
+</windowUI>

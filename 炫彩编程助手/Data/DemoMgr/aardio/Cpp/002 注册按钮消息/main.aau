@@ -1,0 +1,21 @@
+import xc;
+import win;
+
+
+::XInitXCGUI("");
+var hWindow = ::XWnd_Create(0,0,500,400,string.toUnicode("炫彩界面库"),0,47/*_xc_window_style_default*/);
+::XBtn_SetType(::XBtn_Create(8,5,100,20,string.toUnicode("关闭"),hWindow),3/*_button_type_close*/);
+
+
+var button =  ::XBtn_Create(8,35,100,20,string.toUnicode("按钮点击测试"),hWindow);
+buttonClick = function(a) { 
+    win.msgbox("按钮被点击");
+    return 0; 
+}
+onClick = raw.tostdcall(buttonClick,"int(bool& pbHandle)");
+::XEle_RegEventC(button,34/*_XE_BNCLICK*/,onClick);
+
+
+::XWnd_ShowWindow(hWindow,5);
+::XRunXCGUI();
+::XExitXCGUI();

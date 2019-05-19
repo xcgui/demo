@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-项目配置文件-->
+<project name="XCHelper">
+    <layoutFiles>
+        <param path="layout.xml" />
+        <param path=".\DemoPic.xml" />
+        <param path=".\DemoGif.xml" />
+    </layoutFiles>
+    <styleFiles>
+        <param path="style.css" />
+    </styleFiles>
+    <resourceFiles>
+        <param path="resource.res" />
+    </resourceFiles>
+</project>

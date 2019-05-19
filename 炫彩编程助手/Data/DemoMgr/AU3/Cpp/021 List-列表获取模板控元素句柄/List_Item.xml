@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表元素项模板文件-->
+<xc_template_list showT="true">
+    <listHeader_item showT="true">
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="1" layout.width="40" layout.height="fill" content="ID" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="6" layout.padding="5,2,2,2" showT="true">
+            <shapeText itemID="2" layout.width="120" layout.height="fill" content="名称" showT="true" />
+        </layoutObject>
+        <layoutObject widthT="0" heightT="0" layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText left="50" top="170" layout.width="auto" layout.height="20" content="名称2" showT="true" />
+        </layoutObject>
+    </listHeader_item>
+    <list_Item showT="true">
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="10" layout.padding="2,2,2,2" widthT="0" heightT="35" showT="true">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name source=data bSync=false}" width="69" height="21" itemID="0" showT="true" />
+        </layoutObject>
+        <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="10" layout.padding="2,2,2,2" showT="true" heightT="35">
+            <shapeText left="22" top="210" layout.width="auto" layout.height="20" content="{binding field=name2 source=data bSync=false}" width="69" height="21" showT="true" itemID="1" />
+        </layoutObject>
+        <layoutObject widthT="0" heightT="0" layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <buttonUI left="59" top="377" width="60" height="25" content="下载" itemID="20" showT="true" />
+        </layoutObject>
+    </list_Item>
+</xc_template_list>

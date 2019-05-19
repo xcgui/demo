@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-布局面板文件-->
+<layoutPanel showT="true">
+    <elementUI left="20" top="20" width="482" height="317" showT="true">
+        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" id="100" showT="true">
+            <buttonUI left="269" top="132" width="60" height="25" content="Button" id="103" showT="true" />
+            <buttonUI left="282" top="207" width="60" height="25" content="Button" showT="true" />
+            <buttonUI left="316" top="183" width="60" height="25" content="Button" showT="true" />
+            <buttonUI left="323" top="183" width="60" height="25" content="Button" showT="true" />
+            <layoutObject layout.width=":1" layout.height="fill" layout.alignH="center" layout.alignV="center" layout.horizon="false" id="101" layout.space="20" showT="true">
+                <buttonUI left="421" top="146" width="60" height="25" content="Button" showT="true" />
+                <buttonUI left="338" top="208" width="60" height="25" content="Button" showT="true" />
+                <buttonUI left="338" top="208" width="60" height="25" content="Button" showT="true" />
+                <buttonUI left="342" top="220" width="60" height="25" content="Button" showT="true" />
+            </layoutObject>
+        </layoutObject>
+    </elementUI>
+</layoutPanel>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-样式文件-->
+<style>
+    <style_common>
+        <item bkInfoM="@资源2:\ID_页面_基础元素" objectStyle="0" objectType="21" objectTypeEx="0" />
+        <item bkInfoM="@资源2:\ID_页面_搜索编辑框" objectStyle="0" objectType="23" objectTypeEx="0" />
+        <item bkInfoM="@资源2:\ID_页面_下拉组合框" objectStyle="0" objectType="24" objectTypeEx="0" />
+        <item objectStyle="0" objectType="41" objectTypeEx="0" textColor="#FF5C5C5C" />
+        <item objectStyle="0" objectType="62" objectTypeEx="0" textColor="#FF5C5C5C" />
+        <item bkInfoM="@资源2:\ID_主窗口" objectStyle="0" objectType="1" objectTypeEx="0" />
+        <item bkInfoM="@资源2:\ID_页面_列表框" objectStyle="0" objectType="28" objectTypeEx="0" />
+        <item bkInfoM="@资源2:\ID_页面_列表框_垂直滚动条_滑块" objectStyle="9" objectType="22" objectTypeEx="0" />
+        <item bkInfoM="@资源2:\ID_页面_分类按钮" objectStyle="0" objectType="22" objectTypeEx="1" textColor="#FFC0C0C0" />
+        <item bkInfoM="@资源2:\ID_页面_列表框_垂直滚动条_上按钮" objectStyle="6" objectType="22" objectTypeEx="0" />
+        <item bkInfoM="@资源2:\ID_页面_列表框_垂直滚动条_下按钮" objectStyle="7" objectType="22" objectTypeEx="0" />
+        <item bkInfoM="@资源2:\ID_页面_列表框_垂直滚动条" objectStyle="0" objectType="25" objectTypeEx="0" />
+    </style_common>
+    <style_class>
+        <item bkInfoM="@资源2:\ID_主窗口_标签按钮" name="style_主标签" objectType="22" />
+        <item bkInfoM="@资源2:\ID_预览窗口" name="style_预览窗口" objectType="1" />
+        <item bkInfoM="@资源2:\ID_按钮_动态创建" name="style_动态创建" objectType="22" textColor="#FFC0C0C0" />
+    </style_class>
+    <style_resource />
+    <resourceFile path=".\资源2.res" />
+</style>

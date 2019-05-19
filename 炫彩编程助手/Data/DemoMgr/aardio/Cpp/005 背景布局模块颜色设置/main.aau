@@ -1,0 +1,34 @@
+import xc;
+import win;
+import gdi
+
+::XInitXCGUI("");
+
+//创建窗口
+var hWindow = ::XWnd_Create(0,0,500,400,string.toUnicode("炫彩界面库"),0,47/*_xc_window_style_default*/);
+//创建按钮，并且设置按钮为关闭按钮
+::XBtn_SetType(::XBtn_Create(8,5,100,20,string.toUnicode("关闭"),hWindow),3/*_button_type_close*/);
+
+// 获取顶部 部分的背景管理器，然后设置 颜色填充。
+var hBkInfoMTop = ::XWnd_GetBkInfoManager(hWindow,0/*_window_position_top*/);
+::XBkInfoM_AddFill(hBkInfoMTop,4/*_window_state_top_leave*/,gdi.RGB( 0,128,0),255);
+
+
+var hBkInfoMLeft = ::XWnd_GetBkInfoManager(hWindow,2/*_window_position_left*/);
+::XBkInfoM_AddFill(hBkInfoMLeft,16/*_window_state_left_leave*/,gdi.RGB( 128,0,0),255);
+
+
+var hBkInfoMRight = ::XWnd_GetBkInfoManager(hWindow,3/*_window_position_right*/);
+::XBkInfoM_AddFill(hBkInfoMRight,32/*_window_state_right_leave*/,gdi.RGB( 0,0,128),255);
+
+
+var hBkInfoMBottom = ::XWnd_GetBkInfoManager(hWindow,1/*_window_position_bottom*/);
+::XBkInfoM_AddFill(hBkInfoMBottom,8/*_window_state_bottom_leave*/,gdi.RGB( 128,128,0),255);
+
+
+var hBkInfoMBody = ::XWnd_GetBkInfoManager(hWindow,4/*_window_position_body*/);
+::XBkInfoM_AddFill(hBkInfoMBody,2/*_window_state_body_leave*/,gdi.RGB( 0,128,128),255);
+
+::XWnd_ShowWindow(hWindow,5);
+::XRunXCGUI();
+::XExitXCGUI();

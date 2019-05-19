@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutObject widthT="300" heightT="150" layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="10" layout.padding="0,0,0,0" showT="true">
+        <layoutObject layout.width="45" layout.height="fill" layout.alignH="center" layout.alignV="top" layout.horizon="true" layout.padding="0,10,0,0" showT="true">
+            <shapeText left="35" top="34" layout.width="auto" layout.height="20" content="{binding field=name source=data bSync=false}" itemID="1" showT="true" />
+        </layoutObject>
+        <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" showT="true">
+            <layoutObject layout.width="fill" layout.height=":1" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.padding="0,10,15,10" showT="true">
+                <elementUI width="100" height="100" left="148" top="107" layout.width="fill" layout.height="fill" enableFocus="false" itemID="10" showT="true" />
+            </layoutObject>
+            <layoutObject layout.width="fill" layout.height="25" layout.alignH="right" layout.alignV="top" layout.horizon="true" layout.padding="0,0,25,0" showT="true">
+                <shapeText left="222" top="158" layout.width="auto" layout.height="20" content="{binding field=name3 source=data bSync=false}" itemID="3" showT="true" />
+            </layoutObject>
+        </layoutObject>
+    </layoutObject>
+</xc_template_tree>

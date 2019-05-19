@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="20" top="20" width="430" height="370" layoutLeft="8" layoutTop="28" layoutRight="8" layoutBottom="8">
+    <elementUI left="77" top="67" width="253" height="206" layout.width="auto" layout.height="auto" showT="true">
+        <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <elementUI left="60" top="57" width="100" height="100" layout.width="auto" layout.height="auto" showT="true">
+                <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true" />
+            </elementUI>
+            <elementUI left="88" top="160" width="100" height="100" showT="true" />
+        </layoutObject>
+    </elementUI>
+</windowUI>

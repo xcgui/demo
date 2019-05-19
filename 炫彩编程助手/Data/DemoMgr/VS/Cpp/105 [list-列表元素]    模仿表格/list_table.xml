@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-列表元素项模板文件-->
+<xc_template_list showT="true">
+    <listHeader_item showT="true">
+        <layoutObject widthT="300" heightT="30" layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText itemID="0" layout.width="auto" layout.height="fill" content="{binding field=name1 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject widthT="300" heightT="30" layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText itemID="0" layout.width="auto" layout.height="fill" content="{binding field=name2 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject widthT="300" heightT="30" layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText itemID="0" layout.width="auto" layout.height="fill" content="{binding field=name3 source=data bSync=false}" showT="true" />
+        </layoutObject>
+        <layoutObject widthT="300" heightT="30" layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="2,2,2,2" showT="true">
+            <shapeText itemID="0" layout.width="auto" layout.height="fill" content="{binding field=name4 source=data bSync=false}" showT="true" />
+        </layoutObject>
+    </listHeader_item>
+    <list_Item showT="true">
+        <layoutObject widthT="300" heightT="30" layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="0,0,0,0" showT="true">
+            <richEditUI left="81" top="116" width="100" height="20" layout.width="fill" layout.height="fill" itemID="1" showT="true" content="{binding field=name1 source=data bSync=false}" />
+        </layoutObject>
+        <layoutObject widthT="300" heightT="30" layout.horizon="true" layout.alignH="left" layout.alignV="center" layout.width="fill" layout.height="fill" layout.space="2" layout.padding="0,0,0,0" showT="true">
+            <richEditUI left="90" top="155" width="100" height="20" layout.width="fill" layout.height="fill" itemID="2" showT="true" content="{binding field=name2 source=data bSync=false}" />
+        </layoutObject>
+        <layoutObject widthT="300" heightT="30" layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="0,0,0,0" showT="true">
+            <richEditUI left="20" top="240" width="142" height="30" layout.width=":1" layout.height="fill" itemID="3" showT="true" content="{binding field=name3 source=data bSync=false}" />
+            <buttonUI left="172" top="247" width="60" height="25" content="{binding field=name4 source=data bSync=false}" buttonType="radio" showT="true" />
+            <buttonUI left="268" top="243" width="60" height="25" content="{binding field=name5 source=data bSync=false}" buttonType="check" showT="true" />
+        </layoutObject>
+        <layoutObject widthT="300" heightT="30" layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" layout.space="2" layout.padding="0,0,0,0" showT="true">
+            <comboBoxUI left="169" top="285" width="100" height="20" itemID="9" showT="true" />
+        </layoutObject>
+    </list_Item>
+</xc_template_list>

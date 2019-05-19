@@ -1,0 +1,11 @@
+void MyGetDirectory(wchar_t* pDir, int size)
+{
+	if(0!=GetModuleFileNameW(NULL,pDir,size))
+	{
+		wchar_t *pFilePath=wcsrchr(pDir, L'\\' );
+		if(pFilePath)
+		{
+			pFilePath[0]=L'\0';
+		}
+	}
+}

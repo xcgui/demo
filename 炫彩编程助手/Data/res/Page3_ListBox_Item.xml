@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表框元素项模板文件-->
+<xc_template_listBox>
+    <layoutObject layout.horizon="true" layout.alignH="left" layout.alignV="top" layout.width="auto" layout.height="fill" layout.space="2" layout.padding="0,0,0,0" showT="true" widthT="450" heightT="50">
+        <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="bottom" layout.horizon="true" showT="true" layout.padding="0,0,0,0">
+            <shapeText itemID="1" layout.width=":1" layout.height="fill" content="{binding field=name source=data bSync=false}" showT="true" textColor="#FF000000" font="@ID_FONT_2" left="18" top="20" width="312" height="50" />
+            <buttonUI left="390" top="16" width="70" height="25" content="预览" itemID="2" showT="true" drawFocus="false" transparent="true" bkInfoM="{5:1(32)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(2,90.00,180404416,0,-926891840,100);5:1(64)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(3,90.00,-4144960,0,-4144960,100,255,50);4:1(16)2(14)3(5,0,0,0)10(0)20(1)8(0.00)21(1)22(-986896)23(255);4:1(16)2(11)3(0,0,5,0)10(0)20(1)8(179.00)21(1)22(-986896)23(255);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" textColor="#FFA0A0A0" />
+            <buttonUI left="390" top="16" width="70" height="25" content="查看" itemID="3" showT="true" drawFocus="false" transparent="true" bkInfoM="{5:1(32)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(2,90.00,180404416,0,-926891840,100);5:1(64)2(15)3(0,0,0,0)10(0)20(1)8(0.00)21(0)24(3,90.00,-4144960,0,-4144960,100,255,50);4:1(16)2(14)3(5,0,0,0)10(0)20(1)8(0.00)21(1)22(-986896)23(255);4:1(16)2(11)3(0,0,5,0)10(0)20(1)8(179.00)21(1)22(-986896)23(255);}" bkInfoM_state="16(300*300),32(300*300),64(300*300)" textColor="#FFA0A0A0" />
+        </layoutObject>
+    </layoutObject>
+</xc_template_listBox>

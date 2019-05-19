@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="20" top="20" width="415" height="370" layoutLeft="0" layoutTop="0" layoutRight="0" layoutBottom="0" dragWindow="true" drawBk="false" transparentFlag="shaped">
+    <shapeGroupBox content="超级炫彩界面库" left="3" top="3" width="407" height="361" textColor="#FF7CC639" showT="true" />
+    <elementUI left="14" top="26" width="384" height="325" mouseThrough="true" showT="true" />
+</windowUI>

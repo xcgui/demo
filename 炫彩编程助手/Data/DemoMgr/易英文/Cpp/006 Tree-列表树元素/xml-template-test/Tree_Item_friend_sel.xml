@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-树元素项模板文件-->
+<xc_template_tree>
+    <layoutEleUI drawBorder="false" enableCanvas="false" heightT="60" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.padding="5,2,2,2" layout.space="0" layout.width="auto" mouseThrough="true" widthT="200" showT="true" expandT="true">
+        <elementUI bkInfoM="{99:1.9.9;3:2(15)4({binding field=name4});98:16(0);}" height="42" itemID="3" width="42" showT="true" expandT="true" />
+        <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="false" layout.padding="2,2,2,2" layout.space="0" layout.width="auto" mouseThrough="true" showT="true" expandT="true">
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="20" layout.horizon="true" layout.padding="2,2,2,2" layout.space="6" layout.width="auto" mouseThrough="true" showT="true" expandT="true">
+                <shapeText content="{binding field=name source=data bSync=false}" itemID="2" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+                <elementUI bkInfoM="{99:1.9.9;3:2(15)4({binding field=name5});98:16(0);}" enableFocus="false" height="10" itemID="3" transparent="true" width="30" showT="true" expandT="true" />
+            </layoutEleUI>
+            <layoutEleUI drawBorder="false" enableCanvas="false" layout.alignH="left" layout.alignV="center" layout.height="20" layout.horizon="true" layout.padding="2,2,2,2" layout.space="6" layout.width="auto" mouseThrough="true" showT="true" expandT="true">
+                <elementUI bkInfoM="{99:1.9.9;3:2(15)4({binding field=name6});98:16(0);}" enableFocus="false" height="20" itemID="3" transparent="true" width="20" showT="true" expandT="true" />
+                <shapeText content="{binding field=name2 source=data bSync=false}" itemID="3" layout.height="fill" layout.width="auto" showT="true" expandT="true" />
+            </layoutEleUI>
+        </layoutEleUI>
+    </layoutEleUI>
+</xc_template_tree>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="20" top="20" width="249" height="284" content="GetColor" layoutLeft="0" layoutTop="0" layoutRight="0" layoutBottom="0" center="true" dragBorder="false" dragWindow="true" transparentFlag="shaped" drawBk="false" showT="true">
+    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="true" layout.space="0" layout.padding="12,12,12,12" layout.flag="window_position_body" id="1" showT="true">
+        <elementUI left="160" top="125" width="100" height="100" layout.width="fill" layout.height="fill" id="2" drawFocus="false" enableFocus="false" transparent="true" mouseThrough="true" showT="true">
+            <layoutObject layout.width="fill" layout.height="fill" layout.alignH="left" layout.alignV="top" layout.horizon="false" layout.space="0" layout.padding="0,0,0,0" showT="true">
+                <layoutObject layout.width="fill" layout.height="26" layout.alignH="left" layout.alignV="top" layout.horizon="true" showT="true">
+                    <layoutObject layout.width=":1" layout.height="fill" layout.alignH="left" layout.alignV="center" layout.horizon="true" layout.padding="6,0,0,0" showT="true">
+                        <shapeText left="96" top="17" layout.width="auto" layout.height="20" content="TextBlock" id="3" showT="true" />
+                    </layoutObject>
+                    <layoutObject layout.width="100" layout.height="fill" layout.alignH="right" layout.alignV="top" layout.horizon="true" showT="true">
+                        <buttonUI left="235" top="13" width="26" height="26" content="Button" id="12" drawFocus="false" enableFocus="false" transparent="true" showT="true" />
+                        <buttonUI left="235" top="13" width="26" height="26" content="Button" id="4" buttonType="close" drawFocus="false" enableFocus="false" transparent="true" showT="true" />
+                    </layoutObject>
+                </layoutObject>
+                <layoutObject layout.width="fill" layout.height="100" layout.alignH="center" layout.alignV="center" layout.horizon="false" showT="true" layout.space="20" />
+                <layoutObject layout.width="fill" layout.height="20" layout.alignH="left" layout.alignV="center" layout.horizon="true" showT="true" id="5" />
+                <elementUI left="160" top="275" width="100" height="100" layout.width="fill" layout.height=":2" drawFocus="true" enableFocus="false" mouseThrough="false" id="6" showT="true">
+                    <layoutObject layout.width="fill" layout.height="fill" layout.alignH="center" layout.alignV="top" layout.horizon="false" layout.space="0" layout.padding="0,10,0,0" showT="true">
+                        <buttonUI left="170" top="86" width="200" height="30" content="Button" id="7" showT="true" drawFocus="false" enableFocus="true" transparent="true" />
+                        <layoutObject layout.width="fill" layout.height="40" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.padding="6,0,6,0" showT="true">
+                            <richEditUI left="86" top="38" width="174" height="26" id="8" padding.top="4" drawFocus="false" enableFocus="true" transparent="false" showT="true" />
+                            <buttonUI left="223" top="41" width="60" height="25" content="Button" layout.width="26" layout.height="26" id="9" drawFocus="false" enableFocus="true" transparent="true" showT="true" />
+                        </layoutObject>
+                        <layoutObject layout.width="fill" layout.height="30" layout.alignH="center" layout.alignV="center" layout.horizon="true" layout.padding="6,0,6,0" layout.space="10" showT="true">
+                            <buttonUI left="147" top="101" width="80" height="25" content="Button" id="10" drawFocus="false" enableFocus="true" transparent="true" buttonType="check" showT="true" buttonStyle="button" />
+                            <buttonUI left="201" top="94" width="120" height="25" content="Button" id="11" buttonType="check" buttonStyle="button" drawFocus="false" enableFocus="true" transparent="true" showT="true" />
+                        </layoutObject>
+                    </layoutObject>
+                </elementUI>
+            </layoutObject>
+        </elementUI>
+    </layoutObject>
+</windowUI>

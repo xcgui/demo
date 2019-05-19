@@ -1,0 +1,37 @@
+.版本 2
+
+.子程序 WinMain1, 整数型
+.局部变量 hTabBar, 整数型
+
+XInitXCGUI ({  })
+hWindow ＝ XWnd_Create (0, 0, 800, 600, L (“XCGUI-UserDraw”), 0, #XC_SY_DEFAULT)
+hEle ＝ XEle_Create (0, 30, 800, 570, hWindow)
+' XEle_SetBkColor (hEle, RGB (255, 0, 0), 254)
+XEle_RegEventC (hEle, #XE_PAINT, 到整数 (&OnDraw1))
+
+hTabBar ＝ XTabBar_Create (0, 0, 500, 200, hEle)
+统一设置背景 (hTabBar, XTabBar_AddLabel (hTabBar, L (“dffffffffffffffamimi”)))
+统一设置背景 (hTabBar, XTabBar_AddLabel (hTabBar, L (“xiaosemimi”)))
+统一设置背景 (hTabBar, XTabBar_AddLabel (hTabBar, L (“zhognsemimi”)))
+
+
+
+XWnd_ShowWindow (hWindow, #SW_SHOW)
+XRunXCGUI ()
+XExitXCGUI ()
+返回 (0)
+
+
+.子程序 统一设置背景
+.参数 hTable, 整数型
+.参数 索引, 整数型
+.局部变量 hBtn, 整数型
+
+hBtn ＝ XTabBar_GetLabel (hTable, 索引)
+XBtn_SetType (hBtn, #XC_BUTTON_TYPE_RADIO)
+XBtn_SetStyle (hBtn, #XC_BUTTON_STYLE_DEFAULT)
+XEle_EnableBkTransparent (hBtn, 真)
+XEle_EnableBorder (hBtn, 假)
+XEle_EnableFocus (hBtn, 假)
+XBtn_SetIcon (hBtn, XImage_LoadFile (L (“1.png”), 假))
+XBtn_SetIconAlign (hBtn, #XC_ICON_ALIGN_TOP)

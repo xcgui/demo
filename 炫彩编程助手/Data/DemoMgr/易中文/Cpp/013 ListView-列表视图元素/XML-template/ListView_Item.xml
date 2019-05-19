@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表视元素项模板文件-->
+<xc_template_listView showT="true">
+    <listView_Group>
+        <layoutObject layout.alignH="left" layout.alignV="top" layout.height="fill" layout.horizon="true" layout.padding="2,2,2,2" layout.space="2" layout.width="fill">
+            <buttonUI buttonType="check" content="展开-收缩" expandButton="true" layout.height="fill" textAlign="DT_LEFT,DT_VCENTER,DT_SINGLELINE" width="80" />
+            <shapeText content="{binding field=name3 source=data bSync=false}" itemID="1" layout.height="fill" layout.width="auto" />
+        </layoutObject>
+    </listView_Group>
+    <listView_item>
+        <layoutObject layout.alignH="center" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.padding="2,5,2,2" layout.space="2" layout.width="fill">
+            <shapePicture height="65" image="{binding field=name source=data bSync=false}" itemID="1" width="70" />
+            <shapeText content="{binding field=name2 source=data bSync=false}" itemID="2" layout.height="20" layout.width="auto" />
+        </layoutObject>
+    </listView_item>
+</xc_template_listView>

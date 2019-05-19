@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-项目配置文件-->
+<project name="8">
+    <layoutFiles>
+        <param path="layout.xml" />
+        <param path=".\89.xml" />
+        <param path=".\99.xml" />
+    </layoutFiles>
+    <styleFiles>
+        <param path="style.xml" />
+    </styleFiles>
+    <resourceFiles>
+        <param path="resource.xml" />
+    </resourceFiles>
+</project>

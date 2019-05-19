@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-资源文件-->
+<resources>
+    <type_image>
+        <image name="device-computer-icon.png" value=".\image\device-computer-icon.png" loadType="file" style="default" />
+        <image name="device-computer-icon1.png" value=".\image\device-computer-icon1.png" loadType="file" style="default" />
+        <image name="recycle1.png" value=".\image\recycle1.png" loadType="file" style="default" />
+    </type_image>
+    <type_id />
+    <type_font />
+    <type_string />
+    <type_color />
+</resources>

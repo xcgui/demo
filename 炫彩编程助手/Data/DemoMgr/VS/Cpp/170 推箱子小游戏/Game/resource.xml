@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--炫彩界面库-资源文件-->
+<resources>
+    <type_image>
+        <image name="1.png" value=".\1.png" loadType="file" style="default" />
+        <image name="2.png" value=".\2.png" loadType="file" style="default" />
+        <image name="3.png" value=".\3.png" loadType="file" style="default" />
+        <image name="4.png" value=".\4.png" loadType="file" style="default" />
+        <image name="5.png" value=".\5.png" loadType="file" style="default" />
+        <image name="0.png" value=".\0.png" loadType="file" style="default" />
+    </type_image>
+    <type_id>
+        <id name="ID_Window_Body_GameBoard" value="10" />
+        <id name="ID_Window_Left_Btn_NewGame" value="11" />
+        <id name="ID_Window_Left_Btn_SaveGame" value="12" />
+        <id name="ID_Window_Left_btn_PlayGame" value="19" />
+        <id name="ID_Window_Right_BackSpace" value="20" />
+        <id name="ID_Window_Right_Btn_Design" value="30" />
+        <id name="ID_Window_Right_Btn_NextLevel" value="24" />
+        <id name="ID_Window_Right_Btn_PrevLevel" value="25" />
+        <id name="ID_Window_Right_Edit_CurLevel" value="21" />
+        <id name="ID_Window_Right_Edit_MaxLevel" value="23" />
+        <id name="ID_Window_Right_Play" value="61" />
+        <id name="ID_Window_left_Design" value="60" />
+    </type_id>
+    <type_font>
+        <font name="ID_FONT_0" value="微软雅黑" size="12" style="bold" />
+    </type_font>
+    <type_string />
+    <type_color />
+</resources>

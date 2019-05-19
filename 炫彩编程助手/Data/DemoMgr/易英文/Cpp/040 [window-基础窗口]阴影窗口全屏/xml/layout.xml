@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI left="20" top="20" width="462" height="409" content="炫彩界面库 - 我的窗口名" layoutLeft="0" layoutTop="0" layoutRight="0" layoutBottom="0" showT="true" dragWindow="true" drawBk="false" bkInfoM="{3:1(2)2(15)3(0,0,0,0)4(@shaped.png);1:1(2)2(15)3(8,8,6,8)5(3002995)6(255);}" bkInfoM_state="2(300*300)" transparentFlag="shaped">
+    <buttonUI left="367" top="21" width="60" height="25" content="最大化" buttonType="max" showT="true" />
+</windowUI>

@@ -1,0 +1,162 @@
+#include "Common.h"
+
+
+
+
+
+
+
+class CMyWindowList
+{
+public:
+	xcgui::XWnd m_Wnd;
+	xcgui::XList m_list;
+	xcgui::XRichEdit m_richEdit;
+
+
+    CMyWindowList()
+    {
+        Init();
+    }
+    void Init()
+    {
+		m_Wnd.Create(0, 0, 650, 400, L"ìÅ²Ê½çÃæ¿â´°¿Ú");
+		xcgui::XBtn m_btn(10, 5, 60, 20,L"close",m_Wnd);
+		m_btn.SetType(button_type_close);
+
+        m_list.Create(20,40,500,300,m_Wnd);
+        m_list.SetItemTemplateXML(L"List_Item.xml");
+        m_list.SetLineSize(20,20);
+		
+        m_list.AddColumn(100);
+        m_list.AddColumn(100);
+        m_list.AddColumn(100);
+
+
+		xcgui::XAdMap   m_adapterMap;
+        m_list.BindAdapterHeader(m_adapterMap);
+        m_adapterMap.AddItemText(L"name",L"aaa");
+        m_adapterMap.AddItemText(L"name2",L"bbb");
+        m_adapterMap.AddItemText(L"name3",L"ccc");
+        m_adapterMap.AddItemText(L"name4",L"test");
+
+
+		xcgui::XAdTable m_adapter;
+        m_list.BindAdapter(m_adapter);
+        m_adapter.AddColumn(L"name");
+        m_adapter.AddColumn(L"name2");
+        m_adapter.AddColumn(L"name3");
+		
+
+        m_list.SetColumnWidth(0,150);
+        m_list.SetColumnWidth(1,150);
+        m_list.SetColumnWidth(2,150);
+
+        wchar_t tmp[MAX_PATH]={0};
+        for (int i=0;i<20;i++)
+        {
+            wsprintfW(tmp,L"item-%d",i);
+            m_adapter.AddItemText(tmp);
+			
+            wsprintfW(tmp,L"child-%d-1",i);  m_adapter.SetItemText(i,1,tmp);
+            wsprintfW(tmp,L"child-%d-2",i);  m_adapter.SetItemText(i,2,tmp);
+        }
+
+		
+
+        m_richEdit.Create(525,106,120,200,m_Wnd);
+        m_richEdit.ShowSBarV(TRUE);
+        m_richEdit.EnableMultiLine(TRUE);
+
+		xcgui::XBtn btn1(525,40,100,18,L"²åÈëindex=1",m_Wnd);
+
+        XEle_RegEventCPP(btn1,XE_BNCLICK,&CMyWindowList::OnBtnClickInsert);
+
+        xcgui::XBtn btn2(525,62,100,18,L"É¾³ýindex=1",m_Wnd);
+        XEle_RegEventCPP(btn2,XE_BNCLICK,&CMyWindowList::OnBtnClickDel);
+
+        xcgui::XBtn btn3(525,84,100,18,L"É¾³ýindex=(2-3)",m_Wnd);
+        XEle_RegEventCPP(btn3,XE_BNCLICK,&CMyWindowList::OnBtnClickDelEx);
+
+        XEle_RegEventCPP(m_list,XE_LIST_SELECT,&CMyWindowList::OnListSelect);
+        XEle_RegEventCPP(m_list,XE_LIST_TEMP_CREATE,&CMyWindowList::OnTemplateCreate);
+        XEle_RegEventCPP(m_list,XE_LIST_TEMP_DESTROY,&CMyWindowList::OnTemplateDestroy);
+        XEle_RegEventCPP(m_list,XE_LIST_TEMP_ADJUST_COORDINATE,&CMyWindowList::OnTemplateAdjustCoordinate);
+        m_Wnd.ShowWindow(SW_SHOW);
+
+    }
+    int  OnBtnClickInsert(BOOL *pbHandled)
+    {
+		xcgui::XAdTable adapter = m_list.GetAdapter();
+        int index=adapter.InsertItemText(1,L"test-insert");
+        adapter.SetItemText(index,1,L"insert");
+        adapter.SetItemText(index,2,L"insert");
+        m_list.RedrawEle();
+
+        return 0;
+    }
+    int  OnBtnClickDel(BOOL *pbHandled)
+    {
+		if (m_list.GetAdapter().DeleteItem(1))
+		{
+			m_list.RedrawEle();
+		}
+        return 0;
+    }
+    int  OnBtnClickDelEx(BOOL *pbHandled)
+    {
+		if (m_list.GetAdapter().DeleteItemEx(2,2))
+		{
+			m_list.RedrawEle();
+		}
+        return 0;
+    }
+    int  OnListSelect(int iItem,BOOL *pbHandled)
+    {
+        XTRACE("select item %d \n",iItem);
+		m_richEdit.DeleteAll();
+
+        int array_[100]={0};
+        int count =m_list.GetSelectAll(array_,100);
+        wstring  szItemList;
+        wchar_t  name[MAX_PATH]={0};
+		xcgui::XAdTable adapter = m_list.GetAdapter();
+
+        for (int i=0;i<count;i++)
+        {
+            if(adapter.GetItemTextEx(array_[i],L"name",name,MAX_PATH))
+            {
+                szItemList+=name;
+                szItemList+=L"\n";
+            }
+        }
+        m_richEdit.SetText(szItemList.c_str());
+		m_richEdit.RedrawEle();
+        *pbHandled=TRUE;
+        return 0;
+    }
+    int  OnTemplateCreate(list_item_i *pItem,BOOL *pbHandled)
+    {
+        *pbHandled=TRUE;
+        return 0;
+    }
+    int  OnTemplateDestroy(list_item_i *pItem,BOOL *pbHandled)
+    {
+        *pbHandled=TRUE;
+        return 0;
+    }
+    int  OnTemplateAdjustCoordinate(list_item_i *pItem,BOOL *pbHandled)
+    {
+        *pbHandled=TRUE;
+        return 0;
+    }
+};
+
+int WINAPI _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)
+{
+    XInitXCGUI();
+    CMyWindowList  MyWindowt;
+    XRunXCGUI();
+    XExitXCGUI();
+    return 0;
+}
