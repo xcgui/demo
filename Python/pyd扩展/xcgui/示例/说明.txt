@@ -1,0 +1,4 @@
+将"xcgui"文件夹放到下面目录
+C:\Users\xxx\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\xcgui
+或根目录也可
+C:\Users\xxx\AppData\Local\Programs\Python\Python37-32\xcgui
